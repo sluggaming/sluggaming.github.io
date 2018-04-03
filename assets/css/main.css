@@ -747,7 +747,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/bg1.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1080,6 +1080,25 @@
 		position: relative;
 	}
 
+/* Video */
+/* thank you to CSS-TRICKS for help */
+/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+
+	#main .video {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+
+	#main .video iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+	
 /* Me */
 
 	#me .pic {
@@ -1097,7 +1116,7 @@
 			height: 100%;
 			z-index: 1;
 		}
-
+		
 /* Footer */
 
 	#footer {
