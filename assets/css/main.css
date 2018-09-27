@@ -2540,7 +2540,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 33%;
 		}
 
 			.features li:nth-child(1) {
