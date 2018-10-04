@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: 	;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3981,4 +3981,25 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+	
+/* Lower Right Corner Box */
+
+	#right-corner-box {
+		border: 5px solid #2e3842;
+		border-radius: 10%;
+		background-color: orange;
+		padding:1% 1% 1% 1%;
+		position: fixed;
+		bottom: 2%;
+		right: 2%;
+	}
+	
+	#close {
+		text-align: center;
+		color: black;
+		padding: 1% 1% 1% 1%;
+		background:#fff;
+		border-radius: 10%;
+		cursor: pointer;
 	}
