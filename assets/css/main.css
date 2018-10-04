@@ -2542,6 +2542,10 @@ input, select, textarea {
 			text-align: left;
 			width: 33%;
 		}
+		
+		.features .subofficers li {
+			width: 25%;
+		}
 
 			.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
