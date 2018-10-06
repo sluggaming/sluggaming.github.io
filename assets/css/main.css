@@ -3992,7 +3992,10 @@ input, select, textarea {
 		padding:1% 1% 1% 1%;
 		position: fixed;
 		bottom: 2%;
-		right: 2%;
+		display: block;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
 	}
 	
 	#close {
