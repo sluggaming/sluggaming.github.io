@@ -1,0 +1,96 @@
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+	<style>
+		/* Dropdown Button */
+			.dropbtn {
+			background-color: #22B2A6;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+		}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #22B2A6;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {display: block;}
+
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+		.dropdown:hover .dropbtn {background-color: #3e8e41;}
+	</style>
+	
+</head>
+
+<header id="header">
+	<link rel="icon" href="assets\css\images\sluggaming_logo_transparent.ico">
+	<h1><a href="index">Slug Gaming</a></h1>
+	<nav id="nav">
+		<ul>
+			<li class="special">
+				<a href="#menu" class="menuToggle"><span>Menu</span></a>
+				<div id="menu">
+					<ul>
+						<li><a href="index">Home</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="events">Events</a></li>
+						<!--<li><a href="families">Families</a></li>-->
+						<li><a href="esports">Esports</a></li>
+						<li><a href="partners">Partners	</a></li>
+						<!--<li><a href="store">Store</a>--></li>
+						<li><a href="gallery">Gallery</a></li>
+						<li><a href="contact">Contact</a></li>
+						<div class="dropdown">
+							<button class="dropbtn">Officers</button>
+							<div class="dropdown-content">
+							<a href="about">About</a>
+							<a href="esports">Esports</a>
+							<a href="gallery">Gallery</a>
+							</div>
+						</div>
+					</ul>
+				</div>
+				<div id="esports">
+				</div>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<!-- Scripts -->
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
