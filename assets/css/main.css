@@ -3366,11 +3366,11 @@ input, select, textarea {
 					padding-top: 0 !important;
 				}
 
-				#menu ul > li > a {
+				#menu ul > li > a, div {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.8em;
+					font-size: 90%;
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
