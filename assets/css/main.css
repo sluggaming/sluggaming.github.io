@@ -3370,7 +3370,7 @@ input, select, textarea {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 90%;
+					font-size: 95%;
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
@@ -3384,6 +3384,38 @@ input, select, textarea {
 						}
 
 					}
+		/* The container <div> - needed to position the dropdown content */
+		#menu .dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		#menu .dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #003c6c;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		#menu .dropdown-content a {
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		/* Change color of dropdown links on hover */
+		#menu .dropdown-content a:hover {background-color: #006aad;}
+
+		/* Show the dropdown menu on hover */
+		#menu .dropdown:hover .dropdown-content {display: block;}
+
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+		#menu .dropdown:hover .dropbtn {background-color: #006aad;}
 
 		#menu .close {
 			background-image: url("images/close.svg");
