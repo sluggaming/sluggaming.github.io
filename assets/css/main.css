@@ -2529,7 +2529,6 @@ input, select, textarea {
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		-webkit-backface-visibility: hidden;
 		justify-content: center;
 		list-style: none;
 		padding: 0;
@@ -2665,6 +2664,7 @@ input, select, textarea {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 #one .flip-front {
