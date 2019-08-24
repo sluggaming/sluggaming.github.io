@@ -2541,7 +2541,6 @@ input, select, textarea {
 			position: relative;
 			text-align: left;
 			width: 33%;
-			padding-top: 100%; /* 1:1 Aspect Ratio */
 		}
 		
 			.features li:nth-child(1) {
@@ -2668,8 +2667,12 @@ input, select, textarea {
   backface-visibility: hidden;
 }
 
+.flip-front {
+  background-color: #507CD1;
+}
+
 .flip-back {
-  background-color: dodgerblue;
+  background-color: #507CD1;
   color: white;
   transform: rotateY(180deg);
 }
