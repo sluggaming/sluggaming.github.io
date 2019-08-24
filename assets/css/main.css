@@ -2639,6 +2639,12 @@ input, select, textarea {
 
 			}
 
+/* Flip cards for Features - Alfred 8/23/19 */
+.flip {
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
 /* Spotlight */
 
 	.spotlight {
