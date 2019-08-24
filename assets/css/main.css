@@ -2673,7 +2673,15 @@ input, select, textarea {
 
 #one .flip-back {
   background-color: #507CD1;
-  color: white;
+  transform: rotateY(180deg);
+}
+
+#three .flip-front {
+  background-color: #DBE4EB;
+}
+
+#three .flip-back {
+  background-color: #DBE4EB;
   transform: rotateY(180deg);
 }
 
