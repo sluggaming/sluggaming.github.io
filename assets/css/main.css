@@ -2670,7 +2670,7 @@ input, select, textarea {
   background-color: #507CD1;
 }
 
-.features.presidents..flip-back {
+.features.presidents.flip-back {
   background-color: #507CD1;
   color: white;
   transform: rotateY(180deg);
