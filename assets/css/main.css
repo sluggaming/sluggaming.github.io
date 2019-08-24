@@ -2541,7 +2541,7 @@ input, select, textarea {
 			position: relative;
 			text-align: left;
 			width: 33%;
-			height: 70%;
+			height: 500px;
 		}
 		
 			.features li:nth-child(1) {
