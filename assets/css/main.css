@@ -2667,6 +2667,9 @@ input, select, textarea {
   backface-visibility: hidden;
 }
 
+.flip-card-back {
+  transform: rotateY(180deg);
+}
 
 /* Spotlight */
 
