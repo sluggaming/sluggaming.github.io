@@ -2541,6 +2541,7 @@ input, select, textarea {
 			position: relative;
 			text-align: left;
 			width: 33%;
+			padding-top: 130%; /* 1:1 Aspect Ratio */
 		}
 		
 			.features li:nth-child(1) {
