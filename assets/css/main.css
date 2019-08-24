@@ -2676,12 +2676,21 @@ input, select, textarea {
   transform: rotateY(180deg);
 }
 
-#three .flip-front {
+#two .flip-front {
   background-color: #DBE4EB;
 }
 
-#three .flip-back {
+#two .flip-back {
   background-color: #DBE4EB;
+  transform: rotateY(180deg);
+}
+
+#three .flip-front {
+  background-color: #6A5ACD;
+}
+
+#three .flip-back {
+  background-color: #6A5ACD;
   transform: rotateY(180deg);
 }
 
