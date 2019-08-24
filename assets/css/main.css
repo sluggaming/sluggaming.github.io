@@ -2694,6 +2694,15 @@ input, select, textarea {
   transform: rotateY(180deg);
 }
 
+#four .flip-front {
+  background-color: #DBE4EB;
+}
+
+#four .flip-back {
+  background-color: #DBE4EB;
+  transform: rotateY(180deg);
+}
+
 /* Spotlight */
 
 	.spotlight {
