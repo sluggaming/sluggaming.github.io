@@ -98,40 +98,55 @@ p {
 	grid: 800px 900px;
 }
 
-.item1 {
+.left-side {
 	display: grid;
-	background-color: #FFCB05;
+	background-color: #FFEA7F;
 	justify-content: center;
 	align-items: center;
+	
+	color: green;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 64px;
 }
 
-.item2 {
-	display: grid;
-	background-color: #121212;
-	/* align-items: center; */
+.right-side {
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
 	justify-content: center;
+	background-color: #38688C; /* Might need to remove for background parallax */
 }
 
-.test {
+.club-title {
 	font-family: primary;
 	color: #FFCB05;
 	font-size: 128px;
-	padding-top: 325px;
 }
 
-.test2 {
+.caption {
 	font-family: secondary;
 	color: #FAFAFA;
 	font-size: 24px;
-	padding-bottom: 25em;
-	padding-left: 75px;
 }
 
+.discordButton {
+	font-family: 'Roboto';
+	font-size: 36px;
+	color: #FFCB05;
+
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 15px;
+
+	border: 2px solid #FFEA7F;
+}
+
+/** Second half of Home Page **/
 #info2 {
 	height:874px;
 	display: grid;
-	grid-template-columns: 900px auto;
-	grid: 800px 900px;
+	grid-template-columns: 990px auto;
 }
 
 .item3 {
@@ -141,9 +156,63 @@ p {
 	align-items: center;
 }
 
-.item4 {
-	display: grid;
-	background-color: #121212;
-	align-items: center;
+.item3 img {
+	background-color: #38688C;
+	width: 40em;
+}
+
+.second-half-border {
+	background-color: #3868AC;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
 	justify-content: center;
+}
+
+/*	Make the big-text hoverable with the 50px border radius.
+	Whenever you hover, the small-text will pop up with radii too
+	for only the bottom parts, and the bottom parts of the big-text
+	will reduce its radius to 0px.
+*/
+.big-text {
+	color: #FFCB05;
+	font-size: 72px;
+	font-family: secondary;
+
+	margin-left: 100px;
+	margin-right: auto;
+
+	padding: 25px;
+
+	border: 2px solid #FFEA7F;
+	border-radius: 0px;
+	transition: .15s;
+}
+
+.big-text:hover {
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+.small-text {
+	color: #FAFAFA;
+	font-size: 16px;
+	font-family: 'Roboto';
+	
+	margin-top: 16px;
+	margin-left: 100px;
+	margin-right: auto;
+
+	padding: 25px;
+
+	border: 2px solid #FFEA7F;
+	border-radius: 50px;
+}
+
+.quoted {
+	color: #FAFAFA;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: italic;
+	margin-top: 50px;
 }
