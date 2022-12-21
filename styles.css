@@ -28,7 +28,7 @@ Roboto (Light --> Black) - Tertiary Font
 
 * { 
 	font-family: primary;
-	color: #FAFAFA;
+	color: red;
 	margin: 0;
 }
 
@@ -145,20 +145,30 @@ p {
 /** Second half of Home Page **/
 #info2 {
 	height:874px;
-	display: grid;
-	grid-template-columns: 990px auto;
-}
-
-.item3 {
-	display: grid;
-	background-color: #38688C;
-	justify-content: center;
+	/* display: grid; */
+	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
-.item3 img {
+.container {
+	width: 100%;
+	height: 100vh;
 	background-color: #38688C;
-	width: 40em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.swiper {
+	width: 40%;
+	height: fit-content;
+	box-sizing: border-box;
+}
+
+.swiper-slide img {
+	/* background-color: #38688C; */
+	width: 100%;
 }
 
 .second-half-border {
@@ -215,4 +225,27 @@ p {
 	font-family: 'Roboto';
 	font-style: italic;
 	margin-top: 50px;
+}
+
+
+/* 
+Below this is where 
+the about page CSS
+shall be applied. 
+*/
+
+#main-content {
+	height:1920px;
+	background-color: #38688C;
+	display: grid;
+
+	grid-template-rows: 874px auto;
+	justify-content: center;
+	align-items: center;
+	
+	/* grid: 874px; */
+}
+
+.about-first-half {
+	color: green;
 }

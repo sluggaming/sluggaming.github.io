@@ -1,0 +1,181 @@
+/*
+#FFCB05 – Slug Gold
+#00588F – Slug Blue
+#FFEA7F – Banana Gold
+#38688C – Banana Blue
+#FAFAFA – Salt
+#121212 – Night Forest
+#FFFFFF – White 
+*/
+
+/*
+Technical Drawing - Primary Font
+League Gothic - Secondary Font
+Roboto (Light --> Black) - Tertiary Font
+*/
+
+@font-face {
+	font-family: primary;
+	src: url("assets/fonts/TechnicalDrawing.ttf");
+}
+
+@font-face {
+	font-family: secondary;
+	src: url("assets/fonts/LeagueGothic.ttf");
+}
+
+/* Use 'font-family: 'Roboto', sans-serif;' for Tertiary */
+
+* { 
+	font-family: primary;
+	color: red;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: primary;
+	color: #FFCB05;
+}
+
+h4, h5, h6 {
+	font-family: secondary;
+	font-size: 2em;
+	color: #00588F;
+}
+
+p {
+	font-family: 'Roboto', sans-serif	;
+	font-size: 2.0em;
+	font-weight: 100;
+}
+
+/* Header & nav bars */
+.topnav {
+	position: relative;
+	overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+	color: #FFCB05;
+	text-align: center;
+	text-decoration: none;
+	font-size: 32px;
+	padding: 50px 50px;
+}
+
+/* Style layout of links overall */
+.topnav ul {
+	list-style: none;
+	background-color: #00588F;
+	text-align: center;
+	padding: 1em;
+}
+
+/* Style layout of text itself */
+.topnav li {
+	display: inline-block;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #FFCB05;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #FFCB05;
+	color: white;
+}
+
+/* Body */
+
+#main-content {
+	height: 1920px;
+	background-image: linear-gradient(#38688C 35%, #FAFAFA);
+	
+	
+	display: flex;
+	flex-direction: column;
+	padding: 15%;
+
+	align-items: center;
+	justify-content: center;
+
+	/* display: grid;
+
+	grid-template-rows: 874px 874px auto;
+	justify-content: center;
+	align-items: center; */
+	
+	/* grid: 874px; */
+}
+
+.about-first-half {
+	display: flex;
+	flex-direction: column;
+	margin: 10%;
+}
+
+.title {
+	font-family: secondary;
+	font-size: 72px;
+	color: #FAFAFA;
+}
+
+.mission, .about-us {
+	font-family: 'Roboto';
+	font-size: 20px;
+	color: #FAFAFA;
+	margin-bottom: 50px;
+}
+
+.about-second-half {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 10%;
+}
+
+.officer-names {
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	margin: 1%;
+	padding: 50px;
+}
+
+.officer-names li {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-style: italic;
+	font-size: 20px;
+
+	color: #121212;
+	list-style: none;
+}
+
+.about-third-half {
+	width: 50%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 750px;
+}
+
+.swiper {
+	width: 75%;
+	height: fit-content;
+	box-sizing: border-box;
+}
+
+.swiper-slide img {
+	/* background-color: #38688C; */
+	width: 100%;
+}
