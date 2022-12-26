@@ -1,0 +1,143 @@
+/*
+#FFCB05 – Slug Gold
+#00588F – Slug Blue
+#FFEA7F – Banana Gold
+#38688C – Banana Blue
+#FAFAFA – Salt
+#121212 – Night Forest
+#FFFFFF – White 
+*/
+
+/*
+Technical Drawing - Primary Font
+League Gothic - Secondary Font
+Roboto (Light --> Black) - Tertiary Font
+*/
+
+@font-face {
+	font-family: primary;
+	src: url("assets/fonts/TechnicalDrawing.ttf");
+}
+
+@font-face {
+	font-family: secondary;
+	src: url("assets/fonts/LeagueGothic.ttf");
+}
+
+/* Use 'font-family: 'Roboto', sans-serif;' for Tertiary */
+
+* { 
+	font-family: primary;
+	color: red;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: primary;
+	color: #FFCB05;
+}
+
+h4, h5, h6 {
+	font-family: secondary;
+	font-size: 2em;
+	color: #00588F;
+}
+
+p {
+	font-family: 'Roboto', sans-serif	;
+	font-size: 2.0em;
+	font-weight: 100;
+}
+
+/* Header & nav bars */
+.topnav {
+	position: relative;
+	overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+	color: #FFCB05;
+	text-align: center;
+	text-decoration: none;
+	font-size: 32px;
+	padding: 50px 50px;
+}
+
+/* Style layout of links overall */
+.topnav ul {
+	list-style: none;
+	background-color: #00588F;
+	text-align: center;
+	padding: 1em;
+}
+
+/* Style layout of text itself */
+.topnav li {
+	display: inline-block;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #FFCB05;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #FFCB05;
+	color: white;
+}
+
+/* Body */
+
+#main-content {
+	background-image: linear-gradient(#38688C 50%, #FFEA7F);
+	
+	display: flex;
+	flex-direction: row;
+	height: 874px;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.big-text {
+	display: flex;
+	flex-direction: column;
+	padding-right: 10%;
+
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	margin: 25px;
+	padding: 50px;
+
+	color: #FAFAFA;
+	font-family: secondary;
+	font-size: 60px;
+}
+
+.small-text {
+
+	color: #FAFAFA;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.calendar {
+	height: 560px;
+	width: 800px;
+
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	padding: 50px;
+}

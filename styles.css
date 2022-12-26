@@ -32,9 +32,16 @@ Roboto (Light --> Black) - Tertiary Font
 	margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	font-family: primary;
 	color: #FFCB05;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	color: #3868AC;
 }
 
 h4, h5, h6 {
@@ -140,6 +147,17 @@ p {
 	padding: 15px;
 
 	border: 2px solid #FFEA7F;
+}
+
+.go-down {
+	color: #FAFAFA;
+	font-size: 48px;
+
+	padding-left: 250px;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /** Second half of Home Page **/
