@@ -1,0 +1,208 @@
+/*
+#FFCB05 – Slug Gold
+#00588F – Slug Blue
+#FFEA7F – Banana Gold
+#38688C – Banana Blue
+#FAFAFA – Salt
+#121212 – Night Forest
+#FFFFFF – White 
+*/
+
+/*
+Technical Drawing - Primary Font
+League Gothic - Secondary Font
+Roboto (Light --> Black) - Tertiary Font
+*/
+
+@font-face {
+	font-family: primary;
+	src: url("assets/fonts/TechnicalDrawing.ttf");
+}
+
+@font-face {
+	font-family: secondary;
+	src: url("assets/fonts/LeagueGothic.ttf");
+}
+
+/* Use 'font-family: 'Roboto', sans-serif;' for Tertiary */
+
+* { 
+	font-family: primary;
+	color: red;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: primary;
+	color: #FFCB05;
+}
+
+h4, h5, h6 {
+	font-family: secondary;
+	font-size: 2em;
+	color: #00588F;
+}
+
+p {
+	font-family: 'Roboto', sans-serif	;
+	font-size: 2.0em;
+	font-weight: 100;
+}
+
+/* Header & nav bars */
+.topnav {
+	position: relative;
+	overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+	color: #FFCB05;
+	text-align: center;
+	text-decoration: none;
+	font-size: 32px;
+	padding: 50px 50px;
+}
+
+/* Style layout of links overall */
+.topnav ul {
+	list-style: none;
+	background-color: #00588F;
+	text-align: center;
+	padding: 1em;
+}
+
+/* Style layout of text itself */
+.topnav li {
+	display: inline-block;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #FFCB05;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #FFCB05;
+	color: white;
+}
+
+/* Body */
+
+.page-container {
+	height: 874px;
+	padding-right: 90px;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #121212;
+}
+
+.form-container {
+	flex: 0.5;
+
+	height: 874px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #121212;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 24rem;
+	gap: 1rem;
+	
+}
+
+input, select, textarea {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #121212;
+
+	padding: 5%;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 12.5px;
+	background: rgba(250, 250, 250, 0.75);
+}
+
+textarea {
+	width: 25em;
+	height: 15em;
+	max-height: 400px;
+	max-width: 540px;
+}
+
+.submit {
+	width: 440px;
+	height: 50px;
+	
+	font-family: 'Roboto';
+	font-size: 28px;
+	font-weight: 250;
+
+	color: #FAFAFA;
+	background-image: linear-gradient(to right, rgba(56, 104, 140, 0.8), rgba(0, 88, 143, 1));
+	border-radius: 12.5px;
+	border: 1px solid #38688C;
+}
+
+.submit:hover {
+	background-image: linear-gradient(to right, rgba(56, 104, 140, 0.5), rgba(0, 88, 143, 0.7));
+}
+
+.submit:active {
+	background-image: linear-gradient(to right, rgba(56, 104, 140, 0.1), rgba(0, 88, 143, 0.1));
+}
+
+.contact-us-text-container {
+	flex: 0.25;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-us-title {
+	color: #FAFAFA;
+	font-family: secondary;
+	font-size: 96px;
+	font-weight: 500;
+	padding-bottom: 1%;
+}
+
+.email-us {
+	color: #FAFAFA;
+	font-family: 'Roboto';
+	font-size: 28px;
+	font-weight: 250;
+	padding-bottom: 1%;
+}
+
+.email-mailto {
+	color: #FAFAFA;
+	font-family: 'Roboto';
+	font-size: 28px;
+	font-weight: 500;
+	padding-bottom: 5%;
+}
+
+.socials-container {
+	width: 480px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.socials-container img {
+	padding: 2.5%;
+}
