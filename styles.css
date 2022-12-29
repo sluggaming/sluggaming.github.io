@@ -60,6 +60,7 @@ p {
 .topnav {
 	position: relative;
 	overflow: hidden;
+	
 }
   
 /* Style the links inside the navigation bar */
@@ -68,7 +69,7 @@ p {
 	text-align: center;
 	text-decoration: none;
 	font-size: 32px;
-	padding: 50px 50px;
+	padding: 50px;
 }
 
 /* Style layout of links overall */
@@ -76,7 +77,7 @@ p {
 	list-style: none;
 	background-color: #00588F;
 	text-align: center;
-	padding: 1em;
+	padding: 16.5px;
 }
 
 /* Style layout of text itself */
@@ -99,61 +100,63 @@ p {
 /* Body */
 
 #info {
-	height:874px;
-	display: grid;
-	grid-template-columns: 900px auto;
-	grid: 800px 900px;
+	background: linear-gradient(135deg, rgba(0, 88, 143, 0.33), rgba(0, 88, 143, .33)), url(assets/images/bg_image.png);
+	height: 1039px;
 }
 
-.left-side {
-	display: grid;
-	background-color: #FFEA7F;
-	justify-content: center;
-	align-items: center;
-	
-	color: green;
-	font-family: 'Roboto';
-	font-weight: 900;
-	font-size: 64px;
-}
-
-.right-side {
-	display: flex;
-	flex-direction: column;
-	padding-left: 100px;
-	justify-content: center;
-	background-color: #38688C; /* Might need to remove for background parallax */
-}
-
-.club-title {
-	font-family: primary;
+.slug-gaming-info {
 	color: #FFCB05;
+	padding-top: 300px;
+
 	font-size: 128px;
+	color: #FAFAFA;
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .caption {
 	font-family: secondary;
 	color: #FAFAFA;
-	font-size: 24px;
+	font-size: 30px;
 }
 
-.discordButton {
+.join-our-community {
 	font-family: 'Roboto';
-	font-size: 36px;
-	color: #FFCB05;
+	color: #FAFAFA;
+	font-weight: 300;
+	font-size: 30px;
 
-	margin-right: auto;
-	margin-top: 50px;
-	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-	border: 2px solid #FFEA7F;
+	padding-top: 32px;
 }
 
-.go-down {
-	color: #FAFAFA;
-	font-size: 48px;
+.discord-button {
+	height: 64px;
+	padding-top: 16px;
+}
 
-	padding-left: 250px;
+.learn-more {
+	font-family: 'Roboto';
+	color: #FAFAFA;
+	font-weight: 250;
+	font-size: 24px;
+	padding-top: 180px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.down-button {
+	margin-top: 8px;
 }
 
 html {
@@ -176,25 +179,39 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: row;
 }
 
 .swiper {
-	width: 40%;
+	width: 75%;
 	height: fit-content;
 	box-sizing: border-box;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
+
+/* .second-half-border {
+	background-color: #3868AC;
+	display: flex;
+	justify-content: center;
+}
+ */
 
 .swiper-slide img {
 	/* background-color: #38688C; */
-	width: 100%;
+	width: 50%;
+	color: #FFEA7F;
 }
 
-.second-half-border {
-	background-color: #3868AC;
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: center;
+.swiper-title {
+	width: 50%;
+	color:#FAFAFA;
+	font-family: secondary;
+	font-size: 32px;
+	background-color: green;
 }
 
 /*	Make the big-text hoverable with the 50px border radius.
@@ -202,6 +219,7 @@ html {
 	for only the bottom parts, and the bottom parts of the big-text
 	will reduce its radius to 0px.
 */
+
 .big-text {
 	color: #FFCB05;
 	font-size: 72px;
@@ -266,4 +284,27 @@ shall be applied.
 
 .about-first-half {
 	color: green;
+}
+
+/* Partners Page */
+
+.partners-text {
+	height: 873px;
+	background-color: #FAFAFA;
+
+	color: #00588F;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.here-link {
+	color: #00588F;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 32px;
 }

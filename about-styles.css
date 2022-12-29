@@ -92,90 +92,148 @@ p {
 /* Body */
 
 #main-content {
-	height: 1920px;
-	background-image: linear-gradient(#38688C 35%, #FAFAFA);
+	height: 900px;
+	background-color: #FAFAFA;
 	
 	
 	display: flex;
-	flex-direction: column;
-	padding: 15%;
-
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-
-	/* display: grid;
-
-	grid-template-rows: 874px 874px auto;
-	justify-content: center;
-	align-items: center; */
-	
-	/* grid: 874px; */
 }
 
 .about-first-half {
+	color: #FAFAFA;
+	font-size: 64px;
+	font-family: 'Roboto';
+	font-weight: 600;
+	
+	/* padding-right: 32px; */
+	height: 900px;
+
 	display: flex;
-	flex-direction: column;
-	margin: 10%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex: 1.25;
+
+	background: url("assets/images/about-us-text.png") left top, #FFCB05;
+	/* background-color: #FFCB05; */
 }
 
 .title {
 	font-family: secondary;
 	font-size: 72px;
-	color: #FAFAFA;
+	color: #38688C;
 }
 
 .mission, .about-us {
 	font-family: 'Roboto';
 	font-size: 20px;
+	font-weight: 300;
 	color: #FAFAFA;
 	margin-bottom: 50px;
+	color: #121212;
 }
+
+.about-first-and-half {
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	flex: 1;
+}
+
+/* Executive Officers */
+.exec-body {
+	background: url(assets/images/squiggles.png), #00588F;
+	padding: 10%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.exec-names {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	padding-left: 15%;
+	flex: 1.5;
+}
+
+.exec-names li {
+	font-family: 'Roboto';
+	font-weight: 250;
+	font-size: 48px;
+	
+	color: #FAFAFA;
+	list-style: none;
+}
+
+.exec-title-text {
+	font-family: secondary;
+	color: #FAFAFA;
+	font-size: 64px;
+	flex: 0.75;
+}
+
+/* Officer names */
 
 .about-second-half {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	margin: 10%;
+	background: url(assets/images/squiggles.png), #00588F;
+	padding: 5%;
 }
 
-.officer-names {
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 50px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-	margin: 1%;
-	padding: 50px;
+.officer-names {	
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	flex: 0.75;
 }
 
 .officer-names li {
 	font-family: 'Roboto';
-	font-weight: 500;
-	font-style: italic;
-	font-size: 20px;
-
-	color: #121212;
+	font-weight: 250;
+	/* font-style: italic; */
+	font-size: 24px;
+	
+	color: #FAFAFA;
 	list-style: none;
 }
 
-.about-third-half {
-	width: 50%;
-	
+.officers-text {
+	font-family: secondary;
+	color: #FAFAFA;
+	font-size: 64px;
+	flex: 0.5;
+	padding-left: 125px;
+}
+
+/* Legacy Officers */
+
+.legacy-body {
+	background: url(assets/images/squiggles.png), #00588F;
+
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding-right: 750px;
 }
 
 .swiper {
-	width: 75%;
+	width: 50%;
 	height: fit-content;
 	box-sizing: border-box;
 }
 
 .swiper-slide img {
 	/* background-color: #38688C; */
-	width: 100%;
+	width: 40%;
 }
