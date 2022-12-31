@@ -237,3 +237,66 @@ p {
 	/* background-color: #38688C; */
 	width: 40%;
 }
+
+.container {
+	width: 100%;
+	height: 50vh;
+	background: url(assets/images/bg-design.png), radial-gradient(ellipse at left top, rgba(255, 234, 127, 0.75), rgba(255, 203, 5, 0.9));
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.legacy-officer-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-right: 15%;
+	padding-right: 10%;
+
+	font-family: secondary;
+	color: #FAFAFA;
+	font-size: 64px;
+}
+
+.swiper {
+	width: 50%;
+	background: radial-gradient(ellipse at left bottom, rgba(56, 104, 140, 0.2), rgba(0, 88, 143, 0.5));
+	border-radius: 0px;
+	transition: 0.2s;
+}
+
+.swiper:hover {
+	border-radius: 25px;
+}
+
+.swiper-slide {
+	display: flex;
+	flex-direction: row;
+}
+
+.swiper-slide img {
+	/* background-color: #38688C; */
+	width: 35%;
+	color: #FFEA7F;
+}
+
+.swiper-title {
+	width: 50%;
+	color:#FAFAFA;
+	font-family: secondary;
+	font-size: 54px;
+	padding: 5%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+	color: #FAFAFA;
+}

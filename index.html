@@ -45,19 +45,23 @@
 
 <body>
 	<!-- Header Bar -->
+	<div class="header-container">
+		<div class="slug-container">
+			<a href="#"><img src="assets/images/slug-gaming-logo.png"></a>
+		</div>
+	</div>
 	<div class="topnav">
 		<ul>
-			<a href="about.html">About</a>
-			<a href="events.html">Events</a>
-			<a href="#">Slug Gaming</a>
-			<a href="partners.html">Partners</a>
-			<a href="contact.html">Contact</a>
+			<a href="about.html">ABOUT</a>
+			<a href="events.html">EVENTS</a>
+			<a href="partners.html">PARTNERS</a>
+			<a href="contact.html">CONTACT</a>
 		</ul>
 	</div>
 
 	<!-- First Half -->
 	<div class="video-container">
-		<video width="1920" height="1080" autoplay muted loop>
+		<video width="1920" height="1080" autoplay muted loop style="pointer-events: none;">
 			<source src="assets/images/slugs-bg-video.mp4" type="video/mp4">
 		</video>
 	</div>
@@ -67,7 +71,7 @@
 			<span class="caption">A GROUP OF PASSIONATE GAMERS JOINED TOGETHER TO COMPETE AND HAVE FUN.</span>
 			<span class="join-our-community">
 				JOIN OUR COMMUNITY!!
-				<span class="discord-button"><img src="assets/images/discord-icon.png"></span>
+				<span class="discord-button"><img src="assets/images/button-icons/discord-icon.png"></span>
 			</span>
 			<span class="learn-more">
 				LEARN MORE
@@ -88,34 +92,59 @@
 				<div class="swiper-wrapper">
 					<!-- Slides -->
 					<div class="swiper-slide">
+						<img src="assets/images/pic01.jpg">
 						<div class="swiper-title">
-							<img src="assets/images/pic01.jpg">
-							Smaple text
+							MASSIVE LIVE EVENTS
+							<div class="subtext">
+								Join us at one of our viewing parties, firebase tours, or social gaming nights! 
+								You can check in with our calendar here to find out when the next event is happening. <br>
+							</div>
+							<div class="subtext quoted">
+								"Wow, this stadium is so big." <br>
+								- Jordan "Subtact" Kinard
+							</div>
 						</div>
 					</div>
 					<div class="swiper-slide">
 						<img src="assets/images/pic02.jpg">
 						<div class="swiper-title">
-							Dos
+							A WELCOMING COMMUNITY
+							<div class="subtext">
+								Mentors, mentees, we're all here to have as much fun as possible and
+								help each other with both in video games and out. Read more about us here. <br>
+							</div>
+							<div class="subtext quoted">
+								"Maybe you should go back to Jayce." <br>
+								- Tyson "Fleche" Van
+							</div>
 						</div>
 					</div>
 					<div class="swiper-slide">
 						<img src="assets/images/pic03.jpg">
 						<div class="swiper-title">
-							Trees
+							SWAGALICIOUS GIVEAWAYS
+							<div class="subtext">
+								We have FREE swag and merch giveaways pretty often. Join our discord
+								server to learn more! <br>
+							</div>
+							<div class="subtext quoted">
+								"So we can have more than 3 of these cups?" <br>
+								- Jason "Radastorm2" Yang
+							</div>
 						</div>
 					</div>
 				</div>
 					
 				<!-- If we need pagination -->
 				<div class="swiper-pagination"></div>
-			
+
 				<!-- If we need navigation buttons -->
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
 
 			</div>			  
 		</div>
+	</div>
 		<!-- <div class="second-half-border">
 			Two Spans here: one for Big Text, another for small text
 			<div class="big-text">
@@ -133,7 +162,6 @@
 				</div>
 			</div>
 		</div> -->
-	</div>
 	
 	<!-- Potential Footer -->
 	<!-- <nav class="navbar navbar-expand-sm justify-content-center">
@@ -155,6 +183,10 @@
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script>
 		const swiper = new Swiper('.swiper', {
+			autoplay: {
+				delay: 4000,
+				disableOnInteraction: true,
+			},
 			// Optional parameters
 			loop: true,
 			
