@@ -166,7 +166,6 @@ p {
 }
 
 .events-design {
-	/* background-color: green; */
 	background: url("assets/images/events-bg2.png");
 	width: 50%;
 	height: 100%;
@@ -186,13 +185,6 @@ p {
 	backdrop-filter: blur(2px);
 	border: 1px solid #38688C;
 	padding: 25px;
-	/* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-	padding: 50px; */
 }
 
 /* Footer */

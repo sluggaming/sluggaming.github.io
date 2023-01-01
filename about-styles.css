@@ -59,12 +59,8 @@ p {
 	position: absolute; 
 	left: 8px;
 	top: 0px; 
-	/* right: 0; 
-	margin-left: auto; 
-	margin-right: auto;  */
 	height: 48px;
 	z-index: 5;
-    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.99); */
 }
 
 .topnav {
@@ -153,7 +149,6 @@ p {
 	font-family: 'Roboto';
 	font-weight: 600;
 	
-	/* padding-right: 32px; */
 	height: 900px;
 
 	display: flex;
@@ -163,7 +158,6 @@ p {
 	flex: 1.25;
 
 	background: url("assets/images/about-us-text.png") left top, #FFCB05;
-	/* background-color: #FFCB05; */
 }
 
 .title {
@@ -189,6 +183,7 @@ p {
 }
 
 /* Executive Officers */
+
 .exec-body {
 	background: url(assets/images/squiggles.png), #00588F;
 	padding: 10%;
@@ -246,7 +241,6 @@ p {
 .officer-names li {
 	font-family: 'Roboto';
 	font-weight: 250;
-	/* font-style: italic; */
 	font-size: 24px;
 	
 	color: #FAFAFA;
@@ -278,7 +272,6 @@ p {
 }
 
 .swiper-slide img {
-	/* background-color: #38688C; */
 	width: 40%;
 }
 
@@ -323,7 +316,6 @@ p {
 }
 
 .swiper-slide img {
-	/* background-color: #38688C; */
 	width: 35%;
 	color: #FFEA7F;
 }
