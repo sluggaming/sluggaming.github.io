@@ -50,49 +50,94 @@ p {
 }
 
 /* Header & nav bars */
+
+.slug-container {
+	background-color: greenyellow;
+}
+
+.slug-container img {
+	position: absolute; 
+	left: 8px;
+	top: 0px; 
+	/* right: 0; 
+	margin-left: auto; 
+	margin-right: auto;  */
+	height: 48px;
+	z-index: 5;
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.99); */
+}
+
 .topnav {
-	position: relative;
+	overflow: hidden;
+	background-color: #38688C;
+	padding-left: 32px;
+	z-index: 6;
+}
+
+.topnav a {
+	float: left;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown {
+	font-family: 'Montserrat';
+	float: left;
 	overflow: hidden;
 }
-  
-/* Style the links inside the navigation bar */
-.topnav a {
-	color: #FFCB05;
-	text-align: center;
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: #FAFAFA;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+	background-color: #FFCB05;
+	color: #121212;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFCB05;
+	top: 47px;
+	min-width: 80px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 4;
+}
+
+.dropdown-content a {
+	float: none;
+	color: #121212;
+	padding: 12px 16px;
 	text-decoration: none;
-	font-size: 32px;
-	padding: 50px 50px;
+	display: block;
+	text-align: left;
 }
 
-/* Style layout of links overall */
-.topnav ul {
-	list-style: none;
-	background-color: #00588F;
-	text-align: center;
-	padding: 1em;
+.dropdown-content a:hover {
+	background-color: #FFEA7F;
 }
 
-/* Style layout of text itself */
-.topnav li {
-	display: inline-block;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-	background-color: #FFCB05;
-	color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-	background-color: #FFCB05;
-	color: white;
+.dropdown:hover .dropdown-content {
+	display: block;
 }
 
 /* Body */
 
 .page-container {
-	height: 874px;
+	height: 100vh;
 	padding-right: 90px;
 	
 	display: flex;
@@ -192,7 +237,7 @@ textarea {
 	font-family: 'Roboto';
 	font-size: 28px;
 	font-weight: 500;
-	padding-bottom: 5%;
+	margin-bottom: 5%;
 }
 
 .socials-container {
@@ -205,4 +250,37 @@ textarea {
 
 .socials-container img {
 	padding: 2.5%;
+}
+
+/* Footer */
+
+.footer {
+	background: url("assets/images/squiggles.png"), radial-gradient(ellipse at left bottom, rgba(56, 104, 140, 1), rgba(0, 88, 143, 1));
+	height: 360px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.socials-container img {
+	padding: 8px;
+	width: 32px;
+	margin: 8px;
+	border: 1px solid #FAFAFA;
+	border-radius: 0px;
+	transition: 0.2s;
+}
+
+.socials-container img:hover {
+	background-color: rgba(250, 250, 250, 0.5);
+	border-radius: 100px;
+}
+
+.bottom-text {
+	font-family: 'Montserrat';
+	color: #FAFAFA;
+	font-weight: 300;
+	padding-top: 24px;
 }

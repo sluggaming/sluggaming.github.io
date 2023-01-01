@@ -16,6 +16,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@600&display=swap" rel="stylesheet">
 	
+	<!-- Montserrat Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 	<!-- CSS Stylesheet -->
 	<link rel="stylesheet" href="styles.css" />
 	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>  -->
@@ -47,13 +51,23 @@
 	<!-- Header Bar -->
 	<div class="header-container">
 		<div class="slug-container">
-			<a href="#"><img src="assets/images/slug-gaming-logo.png"></a>
+			<a href="index.html"><img src="assets/icons/Slug-Only-Logo.png"></a>
 		</div>
 	</div>
 	<div class="topnav">
 		<ul>
-			<a href="about.html">ABOUT</a>
-			<a href="events.html">EVENTS</a>
+			<div class="dropdown">
+				<a href="about.html" class="dropbtn">ABOUT</a>
+				<div class="dropdown-content">
+					<a href="our-teams.html">OUR TEAMS</a>
+				</div>
+			</div> 
+			<div class="dropdown">
+				<a href="events.html" class="dropbtn">EVENTS</a>
+				<div class="dropdown-content">
+					<a href="gallery.html">GALLERY</a>
+				</div>
+			</div>
 			<a href="partners.html">PARTNERS</a>
 			<a href="contact.html">CONTACT</a>
 		</ul>
@@ -62,17 +76,20 @@
 	<!-- First Half -->
 	<div class="video-container">
 		<video width="1920" height="1080" autoplay muted loop style="pointer-events: none;">
-			<source src="assets/images/slugs-bg-video.mp4" type="video/mp4">
+			<source src="assets/images/slugs-bg-video-compressed.mp4" type="video/mp4">
 		</video>
 	</div>
+	<div class="overlay-container"></div>
 	<div id="info">
 		<div class="slug-gaming-info">
-			SLUG GAMING
+			<div class="slug-gaming-title">
+				SLUG GAMING
+			</div>
 			<span class="caption">A GROUP OF PASSIONATE GAMERS JOINED TOGETHER TO COMPETE AND HAVE FUN.</span>
-			<span class="join-our-community">
+			<!-- <span class="join-our-community">
 				JOIN OUR COMMUNITY!!
-				<span class="discord-button"><img src="assets/images/button-icons/discord-icon.png"></span>
-			</span>
+				<span class="discord-button"><img src="assets/images/socials-icons/discord-white-nobg.png"></span>
+			</span> -->
 			<span class="learn-more">
 				LEARN MORE
 				<a href="#info2" class="down-button"><img src="assets/images/down-arrow.png"></a>
@@ -111,7 +128,8 @@
 							A WELCOMING COMMUNITY
 							<div class="subtext">
 								Mentors, mentees, we're all here to have as much fun as possible and
-								help each other with both in video games and out. Read more about us here. <br>
+								help each other with both in video games and out. Read more about us&nbsp<a 
+								href="/about.html" class="here-link2">here</a>. <br>
 							</div>
 							<div class="subtext quoted">
 								"Maybe you should go back to Jayce." <br>
@@ -124,8 +142,9 @@
 						<div class="swiper-title">
 							SWAGALICIOUS GIVEAWAYS
 							<div class="subtext">
-								We have FREE swag and merch giveaways pretty often. Join our discord
-								server to learn more! <br>
+								We have FREE swag and merch giveaways pretty often. Join our&nbsp<a 
+								href="https://discord.gg/GKQdtHf32t" class="here-link2" target="_blank">discord server</a> 
+								to learn more! <br>
 							</div>
 							<div class="subtext quoted">
 								"So we can have more than 3 of these cups?" <br>
@@ -145,6 +164,19 @@
 			</div>			  
 		</div>
 	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="socials-container">
+			<a href="https://discord.gg/GKQdtHf32t" target="_blank"><img src="assets/images/socials-icons/discord-white-nobg.png"></a>
+			<a href="https://www.instagram.com/sluggamingucsc/?hl=en" target="_blank"><img src="assets/images/socials-icons/instagram-white-nobg.png"></a>
+			<a href="https://twitter.com/sluggamingucsc?lang=en" target="_blank"><img src="assets/images/socials-icons/twitter-white-nobg.png"></a>
+		</div>
+		<div class="bottom-text">
+			SLUG GAMING&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbspUC SANTA CRUZ
+		</div>
+	</div>
+	
 		<!-- <div class="second-half-border">
 			Two Spans here: one for Big Text, another for small text
 			<div class="big-text">
@@ -176,9 +208,7 @@
 				<a class="nav-link" href="#">Link 3</a>
 			</li>
 		</ul>
-	</nav>
- -->
-	
+	</nav> -->
  	
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script>
