@@ -243,17 +243,14 @@ html {
 /** Slider for different events **/
 
 #info2 {
-	height:874px;
+	height: 40rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background: radial-gradient(ellipse at left bottom, rgba(56, 104, 140, 1), rgba(0, 88, 143, 1));
 }
 
 .container {
-	width: 100%;
-	height: 100%;
-	background: radial-gradient(ellipse at left top, rgba(255, 234, 127, 0.75), rgba(255, 203, 5, 0.9));
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -261,7 +258,7 @@ html {
 }
 
 .swiper {
-	width: 75%;
+	width: 75rem;
 	background: radial-gradient(ellipse at left bottom, rgba(56, 104, 140, 0.2), rgba(0, 88, 143, 0.5));
 	border-radius: 0px;
 	transition: 0.2s;
@@ -277,6 +274,7 @@ html {
 }
 
 .swiper-slide img {
+	/* background-color: #38688C; */
 	width: 50%;
 	color: #FFEA7F;
 }
@@ -353,214 +351,6 @@ html {
 	color: #FAFAFA;
 	font-weight: 300;
 	padding-top: 24px;
-}
-
-/* ========== */
-/* About Us Page -- "ABOUT" */
-/* ========== */
-
-#about-main-content {
-	height: 900px;
-	background-color: #FAFAFA;
-	
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.about-first-half {
-	color: #FAFAFA;
-	font-size: 64px;
-	font-family: 'Roboto';
-	font-weight: 600;
-	
-	height: 900px;
-
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	flex: 1.25;
-
-	background: url("assets/images/about-us-text.png") left top, #FFCB05;
-}
-
-.title {
-	font-family: secondary;
-	font-size: 72px;
-	color: #38688C;
-}
-
-.mission, .about-us {
-	font-family: 'Roboto';
-	font-size: 20px;
-	font-weight: 300;
-	color: #FAFAFA;
-	margin-bottom: 50px;
-	color: #121212;
-}
-
-.about-first-and-half {
-	display: flex;
-	flex-direction: column;
-	margin: 5%;
-	flex: 1;
-}
-
-/* Executive Officers */
-
-.exec-body {
-	background: url(assets/images/squiggles.png), #00588F;
-	padding: 10%;
-
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.exec-names {
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: left;
-	padding-left: 15%;
-	flex: 1.5;
-}
-
-.exec-names li {
-	font-family: 'Roboto';
-	font-weight: 250;
-	font-size: 48px;
-	
-	color: #FAFAFA;
-	list-style: none;
-}
-
-.exec-title-text {
-	font-family: secondary;
-	color: #FAFAFA;
-	font-size: 64px;
-	flex: 0.75;
-}
-
-/* Officer names */
-
-.about-second-half {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	background: url(assets/images/squiggles.png), #00588F;
-	padding: 5%;
-}
-
-.officer-names {	
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: left;
-	flex: 0.75;
-}
-
-.officer-names li {
-	font-family: 'Roboto';
-	font-weight: 250;
-	font-size: 24px;
-	
-	color: #FAFAFA;
-	list-style: none;
-}
-
-.officers-text {
-	font-family: secondary;
-	color: #FAFAFA;
-	font-size: 64px;
-	flex: 0.5;
-	padding-left: 125px;
-}
-
-/* Legacy Officers */
-
-.legacy-body {
-
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.swiper {
-	width: 50%;
-	height: fit-content;
-	box-sizing: border-box;
-}
-
-.swiper-slide img {
-	width: 40%;
-}
-
-.container {
-	width: 100%;
-	height: 50vh;
-	background: url(assets/images/squiggles.png), radial-gradient(ellipse at right bottom, rgba(0, 88, 143, 1), rgba(0, 88, 143, 1));
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-}
-
-.legacy-officer-title {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding-right: 15%;
-	padding-right: 10%;
-
-	font-family: secondary;
-	color: #FAFAFA;
-	font-size: 64px;
-}
-
-.swiper {
-	width: 50%;
-	background: radial-gradient(ellipse at left top, rgba(255, 234, 127, 0.1), rgba(255, 203, 5, 0.25));
-	border-radius: 0px;
-	transition: 0.2s;
-}
-
-.swiper:hover {
-	border-radius: 25px;
-}
-
-.swiper-slide {
-	display: flex;
-	flex-direction: row;
-}
-
-.swiper-slide img {
-	width: 35%;
-	color: #FFEA7F;
-}
-
-.swiper-title {
-	width: 50%;
-	color:#FAFAFA;
-	font-family: secondary;
-	font-size: 54px;
-	padding: 5%;
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.swiper .swiper-button-prev, .swiper .swiper-button-next {
-	color: #FAFAFA;
 }
 
 /* ========== */
