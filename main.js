@@ -5,6 +5,7 @@ toggleButton.addEventListener('click', () => {
 	navbarLinks.classList.toggle('active')
 }) */
 
+// Fix issue where red text shows up when resizing window after menu-click
 $(document).ready(function(){
 	$(".toggle-menu").click(function() {
 		$( ".alt-topnav" ).slideToggle().toggleClass('active');

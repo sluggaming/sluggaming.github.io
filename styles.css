@@ -78,10 +78,11 @@ p {
 	transition: 0.1s;
 }
 
-.topnav-container:hover {
+/* .topnav-container:hover {
 	background-color: #38688C;
 }
-
+ */
+ 
 .topnav a {
 	display: flex;
 	float: left;
@@ -168,19 +169,23 @@ p {
 	}
 	
 	.topnav a {
-		display: flex;
 		flex-direction: column;
 		display: none;
 	}
 
 	.dropdown {
-		color: orange;
 		display: none;
 	}
 
 	.alt-topnav {
+		position: absolute;
+		z-index: 1;
+
+		width: 100%;
+		min-height: auto;
+
 		background-color: #38688C;
-		display: none;
+		display: flex;
 		flex-direction: column;
 	}
 	
@@ -221,6 +226,7 @@ p {
 	left: 25%;
 	right: 25%;
 	margin-top: 128px;
+	z-index: 0;
 	
 	display: flex;
 	align-items: center;
@@ -229,10 +235,17 @@ p {
 
 .video-container {
 	position: relative;
-	
-	height: 960px;
-	width: 100%;
 	overflow: hidden;
+	z-index: -1;
+}
+
+.video-container video {
+	position: relative;
+	
+	min-width: 100%; 
+	min-height: 100%; 
+
+	transform: scale(101%, 101%);
 }
 
 /* Gold overlay blurred */
@@ -240,11 +253,11 @@ p {
 	position: absolute;
 	top: 0%;
 	left: 0%;
-
+	
 	height: 125vh;
 	width: 99.1vw;
 	overflow: hidden;
-
+	
 	background: linear-gradient(180deg, rgba(255, 234, 127, 0.16), rgba(255, 203, 5, 0.33));
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -253,10 +266,7 @@ p {
 /* Title text presenting Slug Gaming & club description */
 
 .slug-gaming-info {
-	color: #FFCB05;
-	
-	font-size: 128px;
-	color: #FAFAFA;
+	position: relative;
 	display: flex;
 	
 	flex-direction: column;
@@ -266,40 +276,21 @@ p {
 
 .slug-gaming-title {
 	font-family: primary;
-	font-size: 128px;
+	font-size: 10em;
 	color: #FAFAFA;
 }
 
 .caption {
 	font-family: secondary;
 	color: #FAFAFA;
-	font-size: 30px;
-}
-
-.join-our-community {
-	font-family: 'Roboto';
-	color: #FAFAFA;
-	font-weight: 300;
-	font-size: 30px;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-
-	padding-top: 32px;
-}
-
-.discord-button {
-	height: 64px;
-	padding-top: 16px;
+	font-size: 2em;
 }
 
 .learn-more {
 	font-family: 'Roboto';
 	color: #FAFAFA;
 	font-weight: 250;
-	font-size: 24px;
+	font-size: 1.5em;
 	padding-top: 180px;
 
 	display: flex;
@@ -314,6 +305,21 @@ p {
 
 html {
 	scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.slug-gaming-title {
+		font-size: 5em;
+	}
+
+	.caption {
+		font-size: 1.75em;
+	}
+
+	.learn-more { 
+		font-size: 1.25em;
+	}
 }
 
 /** Slider for different events **/
