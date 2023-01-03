@@ -72,11 +72,12 @@ p {
 
 /* Topnav text boxes */
 
-.topnav {
+.topnav-container {
 	overflow: hidden;
 	background-color: #38688C;
 	padding-left: 32px;
 	z-index: 6;
+	height: 47px;
 }
 
 .topnav a {
@@ -139,8 +140,40 @@ p {
 	display: block;
 }
 
+.toggle-menu {
+	display: none;
+	position: absolute;
+	top: 0.66rem;
+	left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.toggle-menu {
+		display: flex;
+	}
+
+	.slug-container {
+		display: none;
+	}
+
+	.dropdown {
+		display: none;
+	}
+
+	.topnav a {
+		display: none;
+	}
+	
+	.game-btns-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
 /* Body section */
 /* Video container & title text */
+
 #info {
 	height: 100vh;
 	position: absolute;
@@ -155,7 +188,7 @@ p {
 }
 
 .video-container {
-	position: absolute;
+	position: relative;
 	z-index: -2;
 	
 	height: 960px;
@@ -165,8 +198,13 @@ p {
 
 /* Gold overlay blurred */
 .overlay-container {
-	height: 960px;
-	width: auto;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+
+	height: 125vh;
+	width: 99.1vw;
+	z-index: -1;
 	overflow: hidden;
 
 	background: linear-gradient(180deg, rgba(255, 234, 127, 0.16), rgba(255, 203, 5, 0.33));
@@ -358,7 +396,6 @@ html {
 /* ========== */
 
 #teams-main-content {
-	height: auto;
 	background-color: #121212;
 	
 	display: flex;
@@ -368,6 +405,13 @@ html {
 }
 
 .content-text {
+	width: 75vw;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
 	font-family: secondary;
 	font-size: 32px;
 	padding-top: 8px;
@@ -378,11 +422,21 @@ html {
 	border: 2px solid #38688C;
 }
 
+
 .game-btns-wrapper {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+	
+	.game-btns-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 .game-btn {
