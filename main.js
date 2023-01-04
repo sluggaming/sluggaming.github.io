@@ -1,4 +1,19 @@
+/* const toggleButton = document.getElementsByClassName('toggle-menu')[0]
+const navbarLinks = document.getElementsByClassName('topnav')[0]
+
+toggleButton.addEventListener('click', () => {
+	navbarLinks.classList.toggle('active')
+}) */
+
+// Fix issue where red text shows up when resizing window after menu-click
 $(document).ready(function(){
+	$(".toggle-menu").click(function() {
+		$( ".alt-topnav" ).slideToggle().toggleClass('active');
+	});
+});
+  
+
+/* $(document).ready(function(){
 	
 var buttonWidth = $("span.discordButton").css('width');
 var padLeft = $("span.discordButton").css('padding-left');
@@ -25,4 +40,4 @@ $("span.discordButton").on({
 		});
 	}  
 });
-});
+}); */

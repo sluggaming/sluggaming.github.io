@@ -16,8 +16,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@600&display=swap" rel="stylesheet">
 	
+	<!-- Montserrat Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 	<!-- CSS Stylesheet -->
-	<link rel="stylesheet" href="teams-styles.css" />
+	<link rel="stylesheet" href="styles.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 	
 	<!-- Scripts
@@ -49,39 +53,45 @@
 			<a href="index.html"><img src="assets/icons/Slug-Only-Logo.png"></a>
 		</div>
 	</div>
-	<div class="topnav">
+	<a href="#" class="toggle-menu">
+		<span class="bar"><img src="assets/images/hamburger-menu.png"></span>
+	</a>
+	<div class="topnav-container">
+		<div class="topnav">
+			<ul>
+				<div class="dropdown">
+					<a href="about.html" class="dropbtn">ABOUT</a>
+					<div class="dropdown-content">
+						<a href="our-teams.html">OUR TEAMS</a>
+					</div>
+				</div> 
+				<div class="dropdown">
+					<a href="events.html" class="dropbtn">EVENTS</a>
+					<div class="dropdown-content">
+						<a href="gallery.html">GALLERY</a>
+					</div>
+				</div>
+				<a href="partners.html">PARTNERS</a>
+				<a href="contact.html">CONTACT</a>
+			</ul>
+		</div>
+	</div>
+	<div class="alt-topnav">
 		<ul>
-			<div class="dropdown">
-				<a href="about.html" class="dropbtn">ABOUT</a>
-				<div class="dropdown-content">
-					<a href="our-teams.html">OUR TEAMS</a>
-				</div>
-			</div> 
-			<div class="dropdown">
-				<a href="events.html" class="dropbtn">EVENTS</a>
-				<div class="dropdown-content">
-					<a href="gallery.html">GALLERY</a>
-				</div>
-			</div>
+			<a href="about.html" class="dropbtn">ABOUT</a>
+			<a href="our-teams.html">OUR TEAMS</a>
+			<a href="events.html" class="dropbtn">EVENTS</a>
+			<a href="gallery.html">GALLERY</a>
 			<a href="partners.html">PARTNERS</a>
 			<a href="contact.html">CONTACT</a>
 		</ul>
 	</div>
-	
-	<!-- <button id="toggle">TOGGLE</button>
-	<div id="content">Some content...</div>
-	<script>
-		$("#toggle").on("click", function() {
-			$("#content").fadeToggle()
-		});
-	</script> -->
 
-
-	<div id="main-content">
+	<div id="teams-main-content">
 		<div class="content-text">HERE ARE THE VARIOUS GAMES WE PLAY IN SLUG GAMING!</div>
-		<div class="game-btns-wrapper">
-			<!-- <button onclick="myFunction()">Try it</button>
-			<button class="game-btn" onclick="myFunction()">CALL OF DUTY</button> -->
+		<!-- <div class="game-btns-wrapper">
+			// <button onclick="myFunction()">Try it</button>
+			// <button class="game-btn" onclick="myFunction()">CALL OF DUTY</button>
 			<button class="game-btn">CALL OF DUTY</button>
 			<button class="game-btn">HEARTHSTONE</button>
 			<button class="game-btn">LEAGUE OF LEGENDS</button>
@@ -90,7 +100,7 @@
 			<button class="game-btn">ROCKET LEAGUE</button>
 			<button class="game-btn">SPLATOON</button>
 			<button class="game-btn">VALORANT</button>
-		</div>
+		</div> -->
 		<div class="info" class="cod">
 			<div class="game-wrapper">
 				<div class="game-title">
@@ -241,8 +251,8 @@
 	</div>
 	
 	<!-- Footer -->
-	<div class="footer">
-		<div class="socials-container">
+	<div class="custom-footer">
+		<div class="socials-container-footer">
 			<a href="https://discord.gg/GKQdtHf32t" target="_blank"><img src="assets/images/socials-icons/discord-white-nobg.png"></a>
 			<a href="https://www.instagram.com/sluggamingucsc/?hl=en" target="_blank"><img src="assets/images/socials-icons/instagram-white-nobg.png"></a>
 			<a href="https://twitter.com/sluggamingucsc?lang=en" target="_blank"><img src="assets/images/socials-icons/twitter-white-nobg.png"></a>
