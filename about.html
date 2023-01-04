@@ -16,6 +16,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@600&display=swap" rel="stylesheet">
 	
+	<!-- Montserrat Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 	<!-- CSS Stylesheet -->
 	<link rel="stylesheet" href="about-styles.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
@@ -49,20 +53,35 @@
 			<a href="index.html"><img src="assets/icons/Slug-Only-Logo.png"></a>
 		</div>
 	</div>
-	<div class="topnav">
+	<a href="#" class="toggle-menu">
+		<span class="bar"><img src="assets/images/hamburger-menu.png"></span>
+	</a>
+	<div class="topnav-container">
+		<div class="topnav">
+			<ul>
+				<div class="dropdown">
+					<a href="about.html" class="dropbtn">ABOUT</a>
+					<div class="dropdown-content">
+						<a href="our-teams.html">OUR TEAMS</a>
+					</div>
+				</div> 
+				<div class="dropdown">
+					<a href="events.html" class="dropbtn">EVENTS</a>
+					<div class="dropdown-content">
+						<a href="gallery.html">GALLERY</a>
+					</div>
+				</div>
+				<a href="partners.html">PARTNERS</a>
+				<a href="contact.html">CONTACT</a>
+			</ul>
+		</div>
+	</div>
+	<div class="alt-topnav">
 		<ul>
-			<div class="dropdown">
-				<a href="about.html" class="dropbtn">ABOUT</a>
-				<div class="dropdown-content">
-					<a href="our-teams.html">OUR TEAMS</a>
-				</div>
-			</div> 
-			<div class="dropdown">
-				<a href="events.html" class="dropbtn">EVENTS</a>
-				<div class="dropdown-content">
-					<a href="gallery.html">GALLERY</a>
-				</div>
-			</div>
+			<a href="about.html" class="dropbtn">ABOUT</a>
+			<a href="our-teams.html">OUR TEAMS</a>
+			<a href="events.html" class="dropbtn">EVENTS</a>
+			<a href="gallery.html">GALLERY</a>
 			<a href="partners.html">PARTNERS</a>
 			<a href="contact.html">CONTACT</a>
 		</ul>
