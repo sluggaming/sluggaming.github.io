@@ -1,0 +1,83 @@
+[
+    {
+        "id": 4,
+        "name": "Naitik P.",
+        "role": "League of Legends",
+        "location": "India",
+        "image": "Naitik P.png",
+        "username": "Juggernaut",
+        "pronouns": "(He/Him)",
+        "content": "Hey, I'm Naitik, a third-year computer science: game design, and economics major. I am the League of Legends Competitive Director at Slug Esports. With a year of experience working with the LoL Varsity and JV Teams, I'm deeply committed to nurturing a competitive atmosphere that values growth, camaraderie, and fun. If you share my esports passion, you're in the right spot at Slug Gaming.",
+        "instagram": "https://www.instagram.com/naitik_p_"
+    },
+    {
+        "id": 5,
+        "name": "Saul A.",
+        "role": "Valorant",
+        "location": "Hayward, CA",
+        "image": "Saul A.png",
+        "username": "Killercropt",
+        "pronouns": "(He/Him)",
+        "content": "Greetings! I'm Saul, a 4th-year Cognitive Science Major. Over the past 2 years, I've been deeply involved in competitive Valorant here at Santa Cruz, and it's been an incredible journey. I'm proud to say that I've won a LAN and some tournaments with my teammates. Now, I have the privilege of serving as the Co-Valorant Director with Kaitlyn, where our primary goal is to bring our gaming community closer together.",
+        "instagram": "https://www.instagram.com/saul_arrizon",
+        "twitter": "https://twitter.com/Killercropt"
+    },
+    {
+        "id": 6,
+        "name": "Kaitlyn E.",
+        "role": "Valorant",
+        "location": "Moraga, CA",
+        "image": "Kaitlyn E.png",
+        "username": "Axo",
+        "pronouns": "(She/Her)",
+        "content": "Kaitlyn \"axo\" Eng (she/they) is an upcoming 2nd-year Computer Science major and, alongside Saul, in charge of anything Valorant related in Slug Gaming. She used to play Valorant competitively but now focuses on streaming, drawing, and editing.",
+        "personal": "https://en.pronouns.page/@axolotlly"
+    },
+    {
+        "id": 7,
+        "name": "Zosia T.",
+        "role": "Overwatch",
+        "location": "San Jose, CA",
+        "image": "Zosia T.png",
+        "username": "Jaguar",
+        "pronouns": "(She/Her)",
+        "content": "Hi, I'm Zosia, aka Jaguar. I am the Overwatch Director as well as a sub for our A Team. I am also majoring in Computer Science: Game Design. I love the color pink, plants, crochet, and my cat Finkledink. If you have any questions about our Overwatch team, feel free to reach out to me on discord @jaguwuar ! ",
+        "twitter": "https://twitter.com/OwJaguar"
+    },
+    {
+        "id": 8,
+        "name": "Reed B.",
+        "role": "Apex Legends",
+        "location": "San Francisco, CA",
+        "image": "Reed B.png",
+        "username": "Reedinator",
+        "pronouns": "(He/Him)",
+        "content": "Reed \"Reedinator\" Blomquist (He/Him) is an upcoming 4th-year Computer Engineering Major. Reed will be serving as the lead Apex Legends Director for Slug Gaming. With a strong background in competitive gaming, Reed has spent two years competing for UCSC Apex. Outside of his club duties, you will find Reed playing Apex, Apex, sometimes Warframe, but mostly Apex.",
+        "twitter": "https://twitter.com/Reedinator1"
+    },
+    {
+        "id": 9,
+        "name": "Brian N.",
+        "role": "Rocket League",
+        "location": "San Jose, CA",
+        "image": "Brian N.png",
+        "username": "GreenCheeze",
+        "pronouns": "(He/Him)",
+        "content": "Brian “GreenCheeze” Nguyen (he/him) is a 4th year Computer Science student. This is going to be Brian’s third year as a Director and Player for Slug Gaming Rocket League. Outside of Rocket League and School, which takes up most of his time, you’ll see him playing a variety of other competitive and casual games, watching YT videos or Twitch streams, and hanging out with friends.",
+        "twitter": "https://twitter.com/GGreenCheeze",
+        "twitch": "https://www.twitch.tv/greencheeze"
+    },
+    {
+        "id": 10,
+        "name": "Colby F.",
+        "role": "Call of Duty",
+        "location": "temporary",
+        "image": "Colby F.png",
+        "username": "Anzio",
+        "pronouns": "(He/Him)",
+        "content": "Colby \"Anzio\" Frey (He/Him) is a 4th year Computer Science major. He is the Call of Duty directory and an associate/team captain for competitive Apex Legends at UCSC. Going on his 2nd year competing in both Apex and Call of duty most of his time is spent playing these games.",
+        "linkedin": "https://www.linkedin.com/in/colbyfrey/",
+        "twitter": "https://twitter.com/Anzio_CF",
+        "twitch": "https://www.twitch.tv/Anzio_CF"
+    }
+]

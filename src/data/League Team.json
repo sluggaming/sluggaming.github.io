@@ -1,0 +1,83 @@
+[
+    {
+        "id": "Melodia",
+        "ign": "Melodia",
+        "name": "Ming Qi",
+        "role": "Top",
+        "major": "Computer Engineering",
+        "hometown": "Shanghai, China",
+        "image": "Melodia.png"
+    },
+    {
+        "id": "MOONMAN",
+        "ign": "Mastersheriff",
+        "name": "Qihe Wang",
+        "role": "Jungle",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "San Jose, CA",
+        "image": "Master Sheriff.png"
+    },
+    {
+        "id": "Echídna",
+        "ign": "Echídna",
+        "name": "William Patterson",
+        "role": "Mid",
+        "major": "Economic's",
+        "hometown": "Santa Monica, CA",
+        "image": "Echídna.png"
+    },
+    {
+        "id": "kinuryu",
+        "ign": "Kinuryu",
+        "name": "Brian Jin",
+        "role": "ADC",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "San Jose, CA",
+        "image": "kinuryu.png"
+    },
+    {
+        "id": "Yunjia",
+        "ign": "YunJia",
+        "name": "Gabriel Li",
+        "role": "Support",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Chengdu, China",
+        "image": "Yunjia.png"
+    },
+    {
+        "id": "DashZero",
+        "ign": "Dashzerø",
+        "name": "Nguyen Vu",
+        "role": "Sub",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Ho Chi Minh, Vietnam",
+        "image": "Dashzero.png"
+    },
+    {
+        "id": "PoopyWorm",
+        "ign": "PoopyWorm",
+        "name": "Vincent Nguyen",
+        "role": "Sub",
+        "major": "Technology and Information Management",
+        "hometown": "San Jose, CA",
+        "image": "PoopyWorm.png"
+    },
+    {
+        "id": "BananaNations",
+        "ign": "BananaNations",
+        "name": "Elkin",
+        "role": "Coach",
+        "major": "Chemistry",
+        "hometown": "East Bay",
+        "image": "Avery.png"
+    },
+    {
+        "id": "Jagolian",
+        "ign": "Jagolian",
+        "name": "Logan Levy",
+        "role": "Coach",
+        "major": "Biomolecular Engineering and Business Management Economics ",
+        "hometown": "San Diego, CA",
+        "image": "Jagolian.png"
+    }
+]

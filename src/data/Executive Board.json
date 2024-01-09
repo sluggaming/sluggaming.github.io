@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Kimberley W.",
+        "role": "President",
+        "location": "San Francisco, CA",
+        "image": "Kimberley W.png",
+        "username": "Heyitsblinded",
+        "pronouns": "(She/Her)",
+        "content": "Kimberley “Blinded” Wu (she/her) is grateful and excited to be leading the charge for Slug Gaming this year. While she’s not working on her computer science and film studies, Kimberley enjoys playing relaxing games (The Sims 4, Minecraft), playing piano and viola, and learning about movies, tv, and musicals.",
+        "linkedin": "https://www.linkedin.com/in/kimberley-wu-a7727b228/",
+        "twitter": "https://twitter.com/HeyItsBlinded",
+        "twitch": "https://www.twitch.tv/heyitsblinded",
+        "tiktok": "https://www.tiktok.com/@heyitsblinded"
+    },
+    {
+        "id": 2,
+        "name": "Michelle W.",
+        "role": "Vice President",
+        "location": "Diamond Bar, CA",
+        "image": "Michelle W.png",
+        "username": "Bel",
+        "pronouns": "(She/Her)",
+        "content": "Yo! My name is Bel (she/her) and I am a junior majoring in B.A Game Design and Playable Media. My favorite games to play are Teamfight Tactics and League of Legends (your average Nami main and Teemo Memer).",
+        "linkedin": "https://www.linkedin.com/in/michellewang2003/",
+        "instagram": "https://www.instagram.com/aikoijin/",
+        "twitter": "https://twitter.com/Aikoijin",
+        "personal": "https://aikoijin-portfolio.webflow.io/"
+    }
+]

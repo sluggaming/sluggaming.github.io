@@ -1,0 +1,74 @@
+[
+    {
+        "id": "zbra",
+        "ign": "ZBRA",
+        "name": "Zachary Kaner",
+        "role": "Tank",
+        "major": "Robotics Engineering",
+        "hometown": "Los Angeles, CA",
+        "image": "zbra.png"
+    },
+    {
+        "id": "nvm",
+        "ign": "nvm",
+        "name": "Evan Johnson",
+        "role": "DPS",
+        "major": "Computer Science",
+        "hometown": "Layton, Utah",
+        "image": "nvm.png"
+    },
+    {
+        "id": "Orchestra",
+        "ign": "Orchestra",
+        "name": "Alex Liu",
+        "role": "Support",
+        "major": "Computer Science",
+        "hometown": "Los Angeles, CA",
+        "image": "Orchestra.png"
+    },
+    {
+        "id": "Okoton-K87",
+        "ign": "Okoton-K87",
+        "name": "Roman Luo",
+        "role": "DPS",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Guangzhou, China",
+        "image": "Okoton-K87.png"
+    },
+    {
+        "id": "VIICK",
+        "ign": "VIICK",
+        "name": "Parthesh Bhattacharya",
+        "role": "DPS",
+        "major": "Astrophysics",
+        "hometown": "Sacramento, CA",
+        "image": "VIICK.png"
+    },
+    {
+        "id": "Jaguar",
+        "ign": "Jaguar",
+        "name": "Zosia Trela",
+        "role": "Tank",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "San Jose, CA",
+        "image": "Jaguar.png"
+    },
+    {
+        "id": "J2hc",
+        "ign": "J2hc",
+        "name": "Jackson Cooke",
+        "role": "DPS",
+        "major": "Computer Science",
+        "hometown": "Alameda, CA",
+        "image": "J2hc.png"
+    },
+    {
+        "id": "Crephyn",
+        "ign": "Crephyn",
+        "name": "Yahli Kijel",
+        "role": "Support",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Los Angeles, CA",
+        "image": "Crephyn.png"
+    }
+]

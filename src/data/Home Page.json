@@ -1,0 +1,26 @@
+[
+    {
+        "id": "Event 1",
+        "Title": "MASSIVE LIVE EVENTS",
+        "Content": "Join us at one of our viewing parties, collegiate tourneys, or social gaming in-houses! You can check in with our calendar here to find out when the next event is happening.",
+        "Quote": "\"Wow, this stadium is so big.\"",
+        "Name": "- Jordan \"Subtact\" Kinard",
+        "Image": "Quote 1.png"
+    },
+    {
+        "id": "Event 2",
+        "Title": "A WELCOMING COMMUNITY",
+        "Content": "Mentors, mentees, we're all here to have as much fun as possible and help each other with both in video games and out. Read more about us here.",
+        "Quote": "\"Maybe you should go back to Jayce.\"",
+        "Name": "- Tyson \"Fleche\" Van",
+        "Image": "Quote 2.png"
+    },
+    {
+        "id": "Event 3",
+        "Title": "MERCH GIVEAWAY",
+        "Content": "We have FREE swag and merch giveaways pretty often. Join our Discord server to learn more!",
+        "Quote": "\"So we can have more than 3 of these cups?\"",
+        "Name": "- Jason \"Radastorm2\" Yang",
+        "Image": "Quote 3.png"
+    }
+]

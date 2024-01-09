@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); */
+@import url('https://fonts.cdnfonts.com/css/akira-expanded');
+@import url('https://fonts.cdnfonts.com/css/kenyan-coffee');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FFCC04;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #1F2937;
+}
+
+.darker-drop-shadow {
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.7));
+}

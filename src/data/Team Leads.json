@@ -1,0 +1,36 @@
+[
+    {
+        "id": 11,
+        "name": "Sam M.",
+        "role": "Marketing Director",
+        "location": "Daly City, CA",
+        "image": "Sam M.png",
+        "username": "Cynthk",
+        "pronouns": "(She/Her)",
+        "content": "Heya! My name is Sam or \"Dior\", I am slug gaming's Marketing Director and part time League of Legends caster. I am a Legal Studies major and Politics minor and will be entering my Senior year.  I enjoy playing board games and other TTRPGS, and have been in love with DnD for several years. I'm also an aspiring voice actress having worked in a few indie games.",
+        "linkedin": "https://www.linkedin.com/in/smagdamo/"
+    },
+    {
+        "id": 13,
+        "name": "Jeff Z.",
+        "role": "Production Director",
+        "location": "San Francisco, CA",
+        "image": "Jeff Z.png",
+        "username": "Jeffuz",
+        "pronouns": "(He/Him)",
+        "content": "Jeff \"Jeffuz\" Zhang (He/Him) is an upcoming 4th year studying Computer Engineering. He will be leading the production team and working on web/software development for the club. During his free time, Jeff enjoys playing League/Valorant, coding, and watching movies/shows.",
+        "linkedin": "https://www.linkedin.com/in/jeffzhang0049/",
+        "instagram": "https://www.instagram.com/jeffu_z/",
+        "twitch": "https://www.twitch.tv/j3ffuz"
+    },
+    {
+        "id": 14,
+        "name": "Serene W.",
+        "role": "Events Director",
+        "location": "San Bruno, CA",
+        "image": "Serene W.png",
+        "username": "Suhrene",
+        "pronouns": "(She/Her)",
+        "content": "Serene “suhrene” Wong (She/Her) is an upcoming 1st year Art and Design: Games and Playable Media major. She will be serving as the Events Director for Slug Gaming. In her free time, she enjoys playing League/TFT, watching videos/shows, and taking care of her plants. If there are any events you would want to see, feel free to reach out on discord @suhrene!"
+    }
+]

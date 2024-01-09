@@ -1,0 +1,27 @@
+[
+    {
+        "id": 12,
+        "name": "Nataniel J.",
+        "role": "Community Production",
+        "location": "Eastvale, CA",
+        "image": "Nataniel J.png",
+        "username": "Novah",
+        "pronouns": "(He/Him)",
+        "content": "Hey Everyone! I'm Nataniel Jayaseelan (He/Him) and I'm the Slug Gaming Community Production Manager. I'm currently a freshman in computer engineering at UCSC. During my free time, I love working on coding projects, my freelance web development business, or playing games like apex or valorant. Feel free to reach out to me!",
+        "linkedin": "https://www.linkedin.com/in/nataniel-jayaseelan-80977b223/",
+        "instagram": "https://www.instagram.com/justnatexh/",
+        "personal": "https://www.nj-web.com/",
+        "github": "https://github.com/Ironspidr"
+    },
+    {
+        "id": 3,
+        "name": "Hailey G.",
+        "role": "Vice President",
+        "location": "Palm Springs, CA",
+        "image": "Hailey G.png",
+        "username": "hailstarz",
+        "pronouns": "(She/Her)",
+        "content": "Hailey “ihaveanicedog” Garber  (she/her) is a 3rd year at UC Santa Cruz studying Computer Science and Engineering. This is Hailey’s third year with Slug Gaming, the last two years she was the Director of Social Media and is now taking on the role as VP for Slug Gaming Community. She enjoys painting, crocheting, listening to music, weightlifting, and playing games!  Connect with Hailey on Discord @hailstarz",
+        "instagram": "https://www.instagram.com/haileygarber/"
+    }
+]
