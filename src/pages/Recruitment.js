@@ -5,7 +5,7 @@ const Recruitment = () => {
   return (
     <div className='font-Montserrat pt-36'>
       <section id='Recruitment'>
-        <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
+        <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F] font-semibold'>
           Recruitment
         </div>
         <div className='flex justify-center max-[1100px]:px-12 pt-3'>

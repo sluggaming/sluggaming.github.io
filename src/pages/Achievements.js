@@ -4,7 +4,7 @@ const Achievements = () => {
   return (
     <div className='font-Montserrat pt-36'>
       <section id='Achievements'>
-        <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
+        <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F] font-semibold'>
           Achievements
         </div>
         <div className='flex justify-center max-[1100px]:px-12 pt-3'>

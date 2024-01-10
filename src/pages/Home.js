@@ -1,6 +1,7 @@
 import React from 'react'
 import homePageData from '../data/Home Page.json'
 import Event_Panel from '../components/Home Panel/Event Panel'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
                         <div className="min-[1250px]text-4xl min-[665px]:text-4xl min-[570px]:text-2xl text-xl text-white font-kenyan-coffee flex justify-center darker-drop-shadow leading-[50px] tracking-wider">
                             The Main Hub for Esports at UC Santa Cruz
                         </div>
+                        <button className='m-4 py-3 px-6 rounded-full bg-[#00588F] mx-auto  animate-bounce shadow-lg'>
+                            <Link to='/intramurals' className='text-white xl:text-3xl lg:text-xl sm:text-md min-[400px]:text-base text-sm font-akira-expanded'>Intramurals</Link>
+                        </button>
                     </div>
                 </div>
             </section>

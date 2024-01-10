@@ -18,6 +18,7 @@ import League from './pages/games/League';
 import Overwatch from './pages/games/Overwatch';
 import Rocket from './pages/games/Rocket';
 import Valorant from './pages/games/Valorant';
+import Intramurals from './pages/events/Intramurals';
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
         <Route path='/teams/overwatch' element={<Overwatch />} />
         <Route path='/teams/rocket_league' element={<Rocket />} />
         <Route path='/teams/valorant' element={<Valorant />} />
+        {/* Events */}
+        <Route path='/intramurals' element={<Intramurals/>} />
       </Routes>
       <Footer />
     </div>

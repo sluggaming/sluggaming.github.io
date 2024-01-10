@@ -40,7 +40,7 @@ const Teams = () => {
     <div className='pt-36 font-Montserrat'>
       <section className=''>
         <div className='pb-3'>
-          <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
+          <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F] font-semibold'>
             Our Esport Teams
           </div>
           <div className='flex justify-center max-[1100px]:px-[50px] pt-3'>
