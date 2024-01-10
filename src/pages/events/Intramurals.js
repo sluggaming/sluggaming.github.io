@@ -28,15 +28,15 @@ const Intramurals = () => {
                             </Link>
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
-                            <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Valorant</div>
-                            {/* <button className='bg-[#00588F] hover:text-[#FFCC04] text-white font-bold py-2 px-4 rounded-full duration-500'>Sign up</button> */}
-                            <div className='text-xl'>Coming Soon...</div>
-                        </div>
-                        <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>League of Legends</div>
                             <Link to='https://docs.google.com/forms/d/e/1FAIpQLSe6BN1_C2MFq7U0qHDkvB_cLNLaHM-JhbRoAPeLl0NgyX7C7g/viewform' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
                                 Sign up
                             </Link>
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-3'>
+                            <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Valorant</div>
+                            {/* <button className='bg-[#00588F] hover:text-[#FFCC04] text-white font-bold py-2 px-4 rounded-full duration-500'>Sign up</button> */}
+                            <div className='text-xl'>Coming Soon...</div>
                         </div>
                     </div>
                 </section>
