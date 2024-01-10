@@ -43,5 +43,14 @@
         "major": "Business Management Economics",
         "hometown": "Los Gatos, CA",
         "image": "Makzs7.png"
+    },
+    {
+        "id": "RONIN",
+        "ign": "RONIN",
+        "name": "Jade Gingerich",
+        "role": "Sub",
+        "major": "Computer Engineering",
+        "hometown": "Santa Maria CA",
+        "image": "RONIN.png"
     }
 ]
