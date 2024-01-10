@@ -1,0 +1,56 @@
+[
+    {
+        "id": "Nub5000",
+        "ign": "Nub5000",
+        "name": "Samuel T. Lin",
+        "role": "Controller/Fill",
+        "major": "Robotics Engineering",
+        "hometown": "Potomac, MD",
+        "image": "Nub5000.png"
+    },
+    {
+        "id": "sonLucky",
+        "ign": "sonLucky",
+        "name": "Nick Diec",
+        "role": "Sentinel",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Hayward, CA",
+        "image": "sonLucky.png"
+    },
+    {
+        "id": "Cloin",
+        "ign": "Cloin",
+        "name": "Colin Lai",
+        "role": "Controller",
+        "major": "Biotechnology",
+        "hometown": "Palo Alto, CA",
+        "image": "Cloin.png"
+    },
+    {
+        "id": "DancyPancy",
+        "ign": "DancyPancy",
+        "name": "Jack Wong",
+        "role": "Initiator",
+        "major": "Computational Physics & Computer Engineering",
+        "hometown": "Millbrae, CA",
+        "image": "DancyPancy.png"
+    },
+    {
+        "id": "Makzs7",
+        "ign": "Makzs7",
+        "name": "Max Fiedler",
+        "role": "Duelist",
+        "major": "Business Management Economics",
+        "hometown": "Los Gatos, CA",
+        "image": "Makzs7.png"
+    },
+    {
+        "id": "RONIN",
+        "ign": "RONIN",
+        "name": "x",
+        "role": "x",
+        "major": "x",
+        "hometown": "x",
+        "image": "RONIN.png"
+    }
+]

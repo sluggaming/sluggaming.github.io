@@ -1,7 +1,7 @@
 [
     {
         "id": "UCSC ezky",
-        "ign": "UCSC ezky",
+        "ign": "ezky",
         "name": "Ashcon Kafaipour",
         "role": "Initiator",
         "major": "Computer Science",
@@ -19,12 +19,12 @@
     },
     {
         "id": "ken leywin",
-        "ign": "ken leywin",
+        "ign": "Kenxis",
         "name": "Justin Rosales",
         "role": "Sentinel",
         "major": "Computer Science",
         "hometown": "Cleveland, Ohio",
-        "image": "ken leywin.png"
+        "image": "Kenxis.png"
     },
     {
         "id": "SORA",
