@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66860691.css",
-    "main.js": "/static/js/main.20a42a82.js",
+    "main.js": "/static/js/main.1f40e03a.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/Banner.png": "/static/media/Banner.7ab8b6e759aa92cddb8d.png",
     "static/media/DIsplay.png": "/static/media/DIsplay.e1b0357fe7223e76ff55.png",
@@ -34,6 +34,7 @@
     "static/media/UCSC ezky.png": "/static/media/UCSC ezky.31f29170539ae81c9e14.png",
     "static/media/CouncilJeans44.png": "/static/media/CouncilJeans44.8bdc98c80bad20fd6994.png",
     "static/media/Reed B.png": "/static/media/Reed B.91f4840fe7a2837eb6ef.png",
+    "static/media/Jeff Z.png": "/static/media/Jeff Z.aa1571c6777253032cd0.png",
     "static/media/SORA.png": "/static/media/SORA.488b40e765d0f3d59b13.png",
     "static/media/Kenxis.png": "/static/media/Kenxis.b38b51def71a25c1d87d.png",
     "static/media/nvm.png": "/static/media/nvm.b2ebc2b758838917d35f.png",
@@ -62,7 +63,6 @@
     "static/media/Nataniel J.png": "/static/media/Nataniel J.6fc88033f9e14c6d4da8.png",
     "static/media/Sam M.png": "/static/media/Sam M.1c17b0c9f1f7eca53cac.png",
     "static/media/iWin.png": "/static/media/iWin.0f8c405f868151791378.png",
-    "static/media/Jeff Z.png": "/static/media/Jeff Z.144ea2a78dbd6e9925f4.png",
     "static/media/SLUGS.png": "/static/media/SLUGS.a068faab083a63cfd61a.png",
     "static/media/SlugLogo.png": "/static/media/SlugLogo.5b0cb58456f4aa7cb25e.png",
     "static/media/Apex Logo.png": "/static/media/Apex Logo.5c1d70b4db97ed20d5bc.png",
@@ -70,11 +70,11 @@
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
     "main.66860691.css.map": "/static/css/main.66860691.css.map",
-    "main.20a42a82.js.map": "/static/js/main.20a42a82.js.map",
+    "main.1f40e03a.js.map": "/static/js/main.1f40e03a.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66860691.css",
-    "static/js/main.20a42a82.js"
+    "static/js/main.1f40e03a.js"
   ]
 }
