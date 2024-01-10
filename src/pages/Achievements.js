@@ -14,7 +14,7 @@ const Achievements = () => {
           Step into the world of Slug Gaming's triumphs – where victories, comebacks, and team spirit paint the picture of our gaming excellence!
         </div>
       </section>
-      <section id='Games' className='sm:py-12 py-3'>
+      <section id='Games' className='sm:py-12 py-3 container mx-auto'>
         <div className='grid grid-cols-3 gap-8 max-lg:grid-cols-1 px-12'>
           <div>
             <div className='text-black sm:text-4xl text-2xl'>
