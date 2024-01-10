@@ -19,9 +19,9 @@ const Home = () => {
                         <div className="min-[1250px]text-4xl min-[665px]:text-4xl min-[570px]:text-2xl text-xl text-white font-kenyan-coffee flex justify-center darker-drop-shadow leading-[50px] tracking-wider">
                             The Main Hub for Esports at UC Santa Cruz
                         </div>
-                        <button className='m-4 py-3 px-6 rounded-full bg-[#00588F] mx-auto  animate-bounce shadow-lg'>
-                            <Link to='/intramurals' className='text-white xl:text-3xl lg:text-xl sm:text-md min-[400px]:text-base text-sm font-akira-expanded'>Intramurals</Link>
-                        </button>
+                        <Link to='/intramurals' className='m-4 py-3 px-6 rounded-full bg-[#00588F] mx-auto  animate-bounce shadow-lg'>
+                            <div className='text-white xl:text-3xl lg:text-xl sm:text-md min-[400px]:text-base text-sm font-akira-expanded'>Intramurals</div>
+                        </Link>
                     </div>
                 </div>
             </section>
