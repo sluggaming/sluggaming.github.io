@@ -19,7 +19,7 @@ const Rocket = () => {
             src={require(`../../images/Team Page/Esports Banner/Rocket League Logo.png`)}
             loading="lazy"
             alt='Rocket League Logo'
-          />npm 
+          />
         </div>
       </section>
         <section className='pt-80 font-Montserrat'>
