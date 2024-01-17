@@ -1,19 +1,19 @@
 [
     {
+        "id": "GreenCheeze",
+        "ign": "GreenCheeze",
+        "name": "Brian Nguyen",
+        "major": "Computer Science",
+        "hometown": "San Jose, CA",
+        "image": "greencheeze.png"
+    },
+    {
         "id": "kade",
         "ign": "kade",
         "name": "Kade Muehr",
         "major": "Business Management Economics",
         "hometown": "Palm Springs, CA",
-        "image": "Rocket.png"
-    },
-    {
-        "id": "king",
-        "ign": "King",
-        "name": "Nick Di Lorenzo",
-        "major": "Computer Science: Computer Game Design",
-        "hometown": "San Pedro, CA",
-        "image": "Rocket.png"
+        "image": "kade.png"
     },
     {
         "id": "Dudbard",
@@ -21,15 +21,6 @@
         "name": "Xander Armatis",
         "major": "Computer Science",
         "hometown": "Brentwood, CA",
-        "image": "Rocket.png"
-    },
-    {
-        "id": "GreenCheeze",
-        "ign": "GreenCheeze",
-        "name": "Brian Nguyen",
-        "role": "Coach/Sub",
-        "major": "Computer Science",
-        "hometown": "San Jose, CA",
-        "image": "Brian N.png"
+        "image": "dudbard.png"
     }
 ]

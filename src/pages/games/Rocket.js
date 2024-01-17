@@ -19,7 +19,7 @@ const Rocket = () => {
             src={require(`../../images/Team Page/Esports Banner/Rocket League Logo.png`)}
             loading="lazy"
             alt='Rocket League Logo'
-          />
+          />npm 
         </div>
       </section>
         <section className='pt-80 font-Montserrat'>
@@ -37,6 +37,27 @@ const Rocket = () => {
               {rocketTeamData.map((teamMember) => (
                 <TeamCard key={teamMember.id} {...teamMember} />
               ))}
+            </div>
+          </div>
+        </section>
+        <section className='font-Montserrat'>
+          <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
+            UCSC Blue
+          </div>
+          <div className='flex justify-center max-[1100px]:px-[50px] pt-3'>
+            <img src={require('../../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
+          </div>
+          <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
+            University of California, Santa Cruz | Rocket League Junior Varsity Team
+          </div>
+          <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
+            Coming Soon...
+          </div>
+          <div className='container mx-auto py-24 px-8 '>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
+              {/* {leagueTeamData.map((teamMember) => (
+                            <TeamCard key={teamMember.id} {...teamMember} />
+                        ))} */}
             </div>
           </div>
         </section>
