@@ -24,13 +24,16 @@ const Intramurals = () => {
                         <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Apex Legends</div>
                             <Link to='https://forms.gle/mwKkH86RgPaERvZ57' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Sign up
+                                Sign Up
                             </Link>
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>League of Legends</div>
-                            <Link to='https://docs.google.com/forms/d/e/1FAIpQLSe6BN1_C2MFq7U0qHDkvB_cLNLaHM-JhbRoAPeLl0NgyX7C7g/viewform' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Sign up
+                            {/* <Link to='' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Sign Up
+                            </Link> */}
+                            <Link to='' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
+                               Closed
                             </Link>
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
@@ -49,10 +52,9 @@ const Intramurals = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Valorant</div>
-                            {/* <Link to='' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Sign up
-                            </Link> */}
-                            <div className='text-xl'>Coming Soon...</div>
+                            <Link to='https://forms.gle/NKiQ9SyDGPUBGhzm6' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Sign Up
+                            </Link>
                         </div>
                     </div>
                 </section>
