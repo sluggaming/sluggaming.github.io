@@ -1,6 +1,6 @@
 import React from 'react';
 import IntramuralCarousel from '../../components/Events/winter2024IntramuralCarousel';
-import { FaInstagram, FaXTwitter, FaTwitch, FaYoutube, FaTiktok, FaFacebook, FaDiscord } from "react-icons/fa6";
+// import { FaInstagram, FaXTwitter, FaTwitch, FaYoutube, FaTiktok, FaFacebook, FaDiscord } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const Intramurals = () => {
@@ -16,7 +16,7 @@ const Intramurals = () => {
                         <img src={require('../../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
                     </div>
                     <div className='container mx-auto px-8 sm:text-2xl text-lg py-3 text-center text-slate-800'>
-                        Our Intramural Tournament is back, and this time, it's bigger, bolder, and more thrilling than ever before. Introducing Apex Legends, League of Legends, Overwatch, Rocket League and Valorant in our Winter 2024 Intramural Tournament, come join us in an exhilarating journey through the heart of gaming.</div>
+                        Our Intramural Tournament is back, and this time, it's bigger, bolder, and more thrilling than ever before. Introducing Apex Legends, League of Legends, Overwatch, Rocket League and Valorant in our Spring 2024 Intramural Tournament, come join us in an exhilarating journey through the heart of gaming.</div>
                 </section>
                 {/* <section className='grid min-[1200px]:grid-cols-2 grid-cols-1 m-8 gap-8 container mx-auto'> */}
                 <section className='flex min-[1540px]:flex-row flex-col m-8 gap-8 container mx-auto mb-12'>
@@ -24,13 +24,7 @@ const Intramurals = () => {
                     <div className='grid grid-rows-5 max-[1540px]:gap-8 min-[1540px]:w-[40%] gap-3'>
                         <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Apex Legends</div>
-                            <Link to='https://forms.gle/mwKkH86RgPaERvZ57' target='_blank' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Sign Up
-                            </Link>
-                        </div>
-                        <div className='flex flex-col items-center justify-center gap-3'>
-                            <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>League of Legends</div>
-                            {/* <Link to='' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
+                            {/* <Link to='https://forms.gle/mwKkH86RgPaERvZ57' target='_blank' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
                                 Sign Up
                             </Link> */}
                             <Link to='' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
@@ -38,16 +32,28 @@ const Intramurals = () => {
                             </Link>
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
+                            <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>League of Legends</div>
+                            <Link to='https://forms.gle/KDcViFbKH27RYEWw6' target='_blank' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Sign Up
+                            </Link>
+                            {/* <Link to='' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Closed
+                            </Link> */}
+                        </div>
+                        <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Overwatch</div>
                             <Link to='' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Cancelled
+                                Closed
                             </Link>
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Rocket League</div>
-                            <Link to='https://forms.gle/p7rymJGwXG3AGZTB6' target='_blank' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Sign up
+                            <Link to='' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Closed
                             </Link>
+                            {/* <Link to='https://forms.gle/p7rymJGwXG3AGZTB6' target='_blank' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Sign up
+                            </Link> */}
                             {/* <div className='text-xl'>Coming Soon...</div> */}
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
@@ -58,7 +64,7 @@ const Intramurals = () => {
                         </div>
                     </div>
                 </section>
-                <section id='sponsor' className='flex min-[1540px]:flex-row flex-col pt-10 gap-12 mb-10'>
+                {/* <section id='sponsor' className='flex min-[1540px]:flex-row flex-col pt-10 gap-12 mb-10'>
                     <div id='left_sponsor' className='min-[1540px]:w-[60%] w-full'>
                         <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F] font-semibold'>
                             Brought to you by
@@ -140,7 +146,7 @@ const Intramurals = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </div>
         </>
     );

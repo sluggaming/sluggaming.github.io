@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs';
-import janImage from '../../images/Intramurals Page/Intramural_Calendar_Jan.png';
-import febImage from '../../images/Intramurals Page/Intramural_Calendar_Feb.png';
-import marImage from '../../images/Intramurals Page/Intramural_Calendar_Mar.png';
+// import janImage from '../../images/Intramurals Page/Intramural_Calendar_Jan.png';
+// import febImage from '../../images/Intramurals Page/Intramural_Calendar_Feb.png';
+// import marImage from '../../images/Intramurals Page/Intramural_Calendar_Mar.png';
+import aprImage from '../../images/Intramurals Page/Intramural_Calendar_April_2024.png';
+import mayImage from '../../images/Intramurals Page/Intramural_Calendar_May_2024.png';
+import junImage from '../../images/Intramurals Page/Intramural_Calendar_June_2024.png';
 
 // https://www.youtube.com/watch?v=GguJODC2cvI
 
 const IntramuralCarousel = () => {
     let [current, setCurrent] = useState(0);
 
-    let slides = [janImage, febImage, marImage];
+    // let slides = [janImage, febImage, marImage];
+    let slides = [aprImage, mayImage, junImage];
 
     let previousSlide = () => {
         if (current === 0) setCurrent(slides.length - 1);
