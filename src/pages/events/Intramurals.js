@@ -58,9 +58,12 @@ const Intramurals = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center gap-3'>
                             <div className='font-akira-expanded sm:text-4xl text-2xl text-center'>Valorant</div>
-                            <Link to='' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
-                                Closed
+                            <Link to='https://forms.gle/2THfRgSiuqLvKcpP6' target='_blank' className='bg-[#00588F] hover:bg-[#00588faf] text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Sign Up
                             </Link>
+                            {/* <Link to='https://forms.gle/2THfRgSiuqLvKcpP6' className='bg-slate-600 text-white font-bold py-2 px-4 rounded-full duration-500'>
+                                Closed
+                            </Link> */}
                         </div>
                     </div>
                 </section>
