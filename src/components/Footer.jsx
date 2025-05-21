@@ -40,6 +40,9 @@ const Footer = () => {
                 </div>
             </div>
 
+            <p className="text-white text-xs text-center px-4 pb-4">
+                This group is open to all students consistent with state and federal law, the UC Nondiscrimination Statement and the Nondiscrimination Policy Statement for University of California Publications Regarding Student-Related Matters
+            </p>
         </footer>
     )
 }
