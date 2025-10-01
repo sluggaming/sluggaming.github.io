@@ -1,40 +1,114 @@
-import React from 'react'
-import homePageData from '../data/Home Page.json'
-import Event_Panel from '../components/Home Panel/Event Panel'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import homePageData from '../data/Home Page.json';
+import Event_Panel from '../components/Home Panel/Event Panel';
+import { Link } from 'react-router-dom';
+import ScrollDownSlug from '../components/ScrollDownSlug';
+
+const stats = [
+    { label: 'Members', value: '100+' },
+    { label: 'Tournaments Yearly', value: '10+' },
+    { label: 'Competitive Teams', value: '7+' },
+];
+
+const sponsors = [
+    { name: 'Sponsor1', logo: require('../images/Footer Component/SlugLogo.png') },
+    // Add more sponsor logos here
+];
+
+const navCards = [
+    { title: 'Teams', link: '/teams', icon: '🎮' },
+    { title: 'Events', link: '/events', icon: '📅' },
+    { title: 'Community', link: '/contact', icon: '🤝' },
+];
 
 const Home = () => {
     return (
-        <div>
-            <section>
-                <div className='max-[1100px]:pt-[87px] flex justify-center' id='Banner'>
-                    <div className='w-full min-[1305px]:h-[950px] h-[850px] overflow-hidden'>
-                        <img src={require('../images/Home Page/Base Banner.png')} alt='home-page-banner' className='h-full object-cover w-full' loading="lazy" />
-                    </div>
-                    <div className='absolute h-screen flex flex-col justify-center px-10'>
-                        {/* <div className='min-[1250px]:text-7xl min-[1060px]:text-6xl min-[860px]:text-5xl min-[665px]:text-4xl min-[570px]:text-3xl min-[350px]:text-xl text-lg text-white font-akira-expanded justify-center darker-drop-shadow'> */}
-                        <div className='xl:text-7xl lg:text-5xl sm:text-4xl min-[400px]:text-2xl min-[390px]:text-xl text-lg text-white font-akira-expanded justify-center darker-drop-shadow'>
-                            <span>UNITE,</span>&nbsp;<span>PLAY,</span><span className='text-[#FFCC04]'>&nbsp;CONQUER</span>.
-                        </div>
-                        <div className="min-[1250px]text-4xl min-[665px]:text-4xl min-[570px]:text-2xl text-xl text-white font-kenyan-coffee flex justify-center darker-drop-shadow leading-[50px] tracking-wider">
-                            The Main Hub for Esports at UC Santa Cruz
-                        </div>
-                        <Link to='/intramurals' className='m-4 py-3 px-6 rounded-full bg-[#00588F] mx-auto  animate-bounce shadow-lg'>
-                            <div className='text-white xl:text-3xl lg:text-xl sm:text-md min-[400px]:text-base text-sm font-akira-expanded'>Intramurals</div>
+        <div className="bg-[#003c6b] min-h-screen text-white font-sans">
+            {/* Hero Banner */}
+            <section className="relative flex flex-col items-center justify-center h-[540px] md:h-[630px] lg:h-[720px] w-full overflow-hidden px-10 pt-[120px]" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)'}}>
+                <div className="absolute inset-0 opacity-10 bg-no-repeat bg-center" style={{backgroundImage: `url(${require('../images/Home Page/Banner.png')})`}}></div>
+                <div className="relative z-10 flex flex-col items-start justify-center w-full max-w-2xl" style={{marginLeft: 0, paddingLeft: 0}}>
+                    <h1 className="text-[3rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-left" style={{marginLeft: 0}}>
+                        Slug Gaming
+                    </h1>
+                    <p className="mt-1 text-xl md:text-2xl font-inter text-[#fac500] text-left" style={{marginLeft: '8%'}}>
+                        UC Santa Cruz's official gaming community.
+                    </p>
+                    <div className="mt-8 flex gap-4 justify-start" style={{marginLeft: '8%'}}>
+                        <a href="https://discord.gg/slug-gaming" target="_blank" rel="noopener noreferrer" className="px-8 py-4 min-w-[180px] rounded-full font-barlow-condensed text-xl font-bold btn-discord shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc]">
+                            Join Our Discord
+                        </a>
+                        <Link to="/teams" className="px-8 py-4 min-w-[180px] rounded-full font-barlow-condensed text-xl font-bold btn-teams shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc]">
+                            See Our Teams
                         </Link>
                     </div>
                 </div>
+                {/* Slug bounce scroll-down indicator attached to viewport */}
+                <ScrollDownSlug />
             </section>
 
-            <section className='m-8'>
-                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8'>
-                    {homePageData.map((homeDetail) => (
-                        <Event_Panel key={homeDetail.id} {...homeDetail} />
-                    ))}
+            {/* Mission/About Block */}
+            <section className="py-16 px-4 md:px-16 bg-[#003c6b]">
+                <div className="max-w-4xl mx-auto text-center">
+                    <h2 className="text-3xl md:text-4xl font-barlow-condensed font-bold text-[#fac500] mb-4">Who We Are</h2>
+                    <p className="text-lg md:text-xl font-inter text-white mb-8">
+                        Slug Gaming is UC Santa Cruz’s official esports club, home to competitive teams, passionate gamers, and a thriving campus community. We organize tournaments, social events, and mentorship programs to unite students through gaming and competition.
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                        {stats.map((stat) => (
+                            <div key={stat.label} className="bg-[#012a4a] rounded-xl shadow-lg border-t-4 border-[#fac500] py-8 px-4 flex flex-col items-center transition-transform duration-200 hover:scale-105">
+                                <span className="text-3xl font-barlow-condensed font-bold text-[#fac500]">{stat.value}</span>
+                                <span className="mt-2 text-lg font-inter text-white">{stat.label}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Highlights / Featured Section */}
+            <section className="py-16 px-4 md:px-16 bg-[#002b4a]">
+                <div className="max-w-5xl mx-auto">
+                    <h2 className="text-3xl md:text-4xl font-barlow-condensed font-bold text-[#12a5dc] mb-8 text-center">Recent Achievements & Events</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {homePageData.map((homeDetail) => (
+                            <div key={homeDetail.id} className="bg-[#012a4a] rounded-xl shadow-lg border-b-4 border-[#12a5dc] transition-transform duration-200 hover:scale-105 hover:shadow-cyan-500/50">
+                                <Event_Panel {...homeDetail} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Quick Navigation Cards */}
+            <section className="py-16 px-4 md:px-16 bg-[#003c6b]">
+                <div className="max-w-4xl mx-auto">
+                    <h2 className="text-3xl md:text-4xl font-barlow-condensed font-bold text-[#fac500] mb-8 text-center">Explore Slug Gaming</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {navCards.map((card) => (
+                            <Link to={card.link} key={card.title} className="bg-[#012a4a] rounded-xl shadow-lg py-10 px-6 flex flex-col items-center border-2 border-[#027988] transition-all duration-200 hover:shadow-[#12a5dc] hover:border-[#12a5dc] hover:scale-105">
+                                <span className="text-5xl mb-4 animate-glow">{card.icon}</span>
+                                <span className="text-xl font-barlow-condensed font-bold text-white">{card.title}</span>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Sponsor Callout */}
+            <section className="py-10 px-4 md:px-16 bg-[#002b4a]">
+                <div className="max-w-4xl mx-auto text-center">
+                    <h2 className="text-2xl md:text-3xl font-barlow-condensed font-bold text-[#fac500] mb-6">Our Sponsors</h2>
+                    <div className="flex flex-wrap justify-center gap-8">
+                        {sponsors.map((sponsor) => (
+                            <div key={sponsor.name} className="bg-[#012a4a] rounded-lg p-4 grayscale hover:grayscale-0 transition-all duration-200 shadow-lg border border-[#fac500] flex items-center">
+                                <img src={sponsor.logo} alt={sponsor.name} className="h-12 w-auto" />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </section>
         </div>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

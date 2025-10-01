@@ -23,7 +23,7 @@ const Navbar = () => {
                         {/* <img src={require('../images/Navigation Component/Slug.png')} alt='slug-logo' onClick={closeNavbar}></img> */}
                         <img src={require('../images/Navigation Component/SLUGS.png')} alt='slug-logo' onClick={closeNavbar} className='w-[100px]'></img>
                     </Link>
-                    <Link to={"/"} className='sm:block hidden'> Slug Gaming </Link>
+                    {/* Removed 'Slug Gaming' text from header */}
                 </div>
                 <div onClick={() => setOpen(!open)} className='text-3xl text-[#FFCC04] absolute right-8 top-7 cursor-pointer min-[1100px]:hidden'>
                     <AiOutlineMenu />

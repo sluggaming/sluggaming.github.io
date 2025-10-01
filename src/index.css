@@ -1,3 +1,87 @@
+.btn-discord {
+    background: #12a5dc;
+    color: #fff;
+    border: 2px solid #12a5dc;
+    transition: background 2.5s cubic-bezier(.4,0,.2,1), border-color 2.5s;
+}
+.btn-discord:hover {
+    background: linear-gradient(90deg, #fac500 0%, #12a5dc 100%);
+    color: #fff;
+    border-color: #fac500;
+}
+.btn-teams {
+    background: #fac500;
+    color: #003c6b;
+    border: 2px solid #fac500;
+    transition: background 2.5s cubic-bezier(.4,0,.2,1), border-color 2.5s;
+}
+.btn-teams:hover {
+    background: linear-gradient(90deg, #12a5dc 0%, #fac500 100%);
+    color: #fff;
+    border-color: #12a5dc;
+}
+.gradient-btn-blueyellow {
+    background: linear-gradient(90deg, #003c6b 0%, #fac500 100%);
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s, background 0.4s;
+}
+.gradient-btn-blueyellow:hover {
+    background: linear-gradient(90deg, #fac500 0%, #003c6b 100%);
+    background-position: left;
+    color: #fff;
+}
+.gradient-btn-yellowwhite {
+    background: linear-gradient(90deg, #fac500 0%, #fff 100%);
+    color: #003c6b;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s, background 0.4s;
+}
+.gradient-btn-yellowwhite:hover {
+    background: linear-gradient(90deg, #fff 0%, #fac500 100%);
+    background-position: left;
+    color: #003c6b;
+}
+.gradient-btn-discord {
+    background: linear-gradient(90deg, #003c6b 0%, #fac500 100%);
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s;
+}
+.gradient-btn-discord:hover {
+    background-position: left;
+    color: #003c6b;
+}
+.gradient-btn-teams {
+    background: linear-gradient(90deg, #006aad 0%, #12a5dc 100%);
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s;
+}
+.gradient-btn-teams:hover {
+    background-position: left;
+    color: #006aad;
+}
+.slug-glow-minimal {
+    text-shadow:
+        0 0 0.2px #fac500,
+        0 0 0.4px #fac500,
+        0 0 0.8px #fac500;
+    filter: drop-shadow(0 0 0.2px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
+.slug-glow-reduced {
+    text-shadow:
+        0 0 0.4px #fac500,
+        0 0 0.8px #fac500,
+        0 0 1.6px #fac500;
+    filter: drop-shadow(0 0 0.4px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +108,48 @@ body::-webkit-scrollbar-track {
 
 .darker-drop-shadow {
     filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.7));
+}
+
+.slug-glow {
+    text-shadow:
+        0 0 8px #fac500,
+        0 0 16px #fac500,
+        0 0 32px #fac500;
+    filter: drop-shadow(0 0 8px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
+
+.slug-glow-soft {
+    text-shadow:
+        0 0 0.8px #fac500,
+        0 0 1.6px #fac500,
+        0 0 3.2px #fac500;
+    filter: drop-shadow(0 0 0.8px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
+
+.slug-glow:hover {
+    text-shadow:
+        0 0 16px #fac500,
+        0 0 32px #fac500,
+        0 0 48px #fac500;
+    filter: drop-shadow(0 0 16px #fac500);
+}
+
+.animate-bounce-slow {
+    animation: slugBounce 2s infinite cubic-bezier(.5,0,.5,1);
+}
+@keyframes slugBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-24px) scaleX(1.1) scaleY(0.9); }
+    70% { transform: translateY(-12px) scaleX(1.05) scaleY(0.95); }
+}
+
+.animate-rotate-slug {
+    animation: rotateSlug 2s infinite ease-in-out;
+}
+@keyframes rotateSlug {
+    0% { transform: rotate(-15deg); }
+    50% { transform: rotate(15deg); }
+    100% { transform: rotate(-15deg); }
 }
