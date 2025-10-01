@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import ScrollDownSlug from '../components/ScrollDownSlug';
 
 const stats = [
-    { label: 'Members', value: '100+' },
+    { label: 'Members', value: '3700+' },
     { label: 'Tournaments Yearly', value: '10+' },
-    { label: 'Competitive Teams', value: '7+' },
+    { label: 'Collegiate Teams', value: '12+' },
 ];
 
 const sponsors = [
