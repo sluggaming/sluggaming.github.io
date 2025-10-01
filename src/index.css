@@ -1,24 +1,32 @@
 .btn-discord {
-    background: #12a5dc;
-    color: #fff;
-    border: 2px solid #12a5dc;
-    transition: background 2.5s cubic-bezier(.4,0,.2,1), border-color 2.5s;
+    background: #006aad;
+    color: #fac500;
+    border: 2px solid #fac500;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: none;
+    transition: box-shadow 0.3s, transform 0.2s, border-color 0.3s;
 }
 .btn-discord:hover {
-    background: linear-gradient(90deg, #fac500 0%, #12a5dc 100%);
-    color: #fff;
+    box-shadow: 0 0 16px 0 #fac50099;
+    transform: scale(1.06);
     border-color: #fac500;
 }
 .btn-teams {
     background: #fac500;
-    color: #003c6b;
-    border: 2px solid #fac500;
-    transition: background 2.5s cubic-bezier(.4,0,.2,1), border-color 2.5s;
+    color: #006aad;
+    border: 2px solid #006aad;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: none;
+    transition: box-shadow 0.3s, transform 0.2s, border-color 0.3s;
 }
 .btn-teams:hover {
-    background: linear-gradient(90deg, #12a5dc 0%, #fac500 100%);
-    color: #fff;
-    border-color: #12a5dc;
+    box-shadow: 0 0 16px 0 #12a5dc99;
+    transform: scale(1.06);
+    border-color: #006aad;
 }
 .gradient-btn-blueyellow {
     background: linear-gradient(90deg, #003c6b 0%, #fac500 100%);
