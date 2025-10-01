@@ -26,9 +26,9 @@ const Home = () => {
         <div className="bg-[#003c6b] min-h-screen text-white font-sans">
             {/* Hero Banner */}
             {/* Hero: full viewport height; content offset down 8vh so it sits lower but fully visible */}
-            <section className="relative flex flex-col items-start justify-start h-screen w-full overflow-hidden px-0" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)'}}>
+            <section className="relative flex flex-col items-start justify-start h-screen w-full overflow-hidden px-0" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)', zIndex: 1}}>
                 <div className="absolute inset-0 opacity-10 bg-no-repeat bg-center" style={{backgroundImage: `url(${require('../images/Home Page/Banner.png')})`}}></div>
-                <div className="relative z-10 flex flex-col items-start justify-center w-full" style={{paddingLeft: '10vw', paddingTop: '30vh'}}>
+                <div className="relative z-10 flex flex-col items-start justify-center w-full" style={{paddingLeft: '10vw', paddingTop: '30vh', zIndex: 1}}>
                     <h1 className="whitespace-nowrap text-[3rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-left" style={{margin: 0}}>
                         Slug Gaming
                     </h1>

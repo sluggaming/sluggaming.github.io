@@ -16,7 +16,7 @@ const Navbar = () => {
         setOpen(false);
     };
     return (
-        <div className='fixed w-full shadow-lg z-10'>
+    <div className='fixed w-full shadow-lg z-50'>
             <div className='bg-[#00588F] items-center justify-between min-[1100px]:flex min-[1100px]:px-10 px-5'>
                 <div className='font-bold text-[32px] tracking-[0.96px] cursor-pointer flex items-center text-[#FFCC04] font-Montserrat uppercase'>
                     <Link to={"/"} className='mr-5'>
