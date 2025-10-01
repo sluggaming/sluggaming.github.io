@@ -29,8 +29,8 @@ const ScrollDownSlug = () => {
     }, []);
 
     return visible ? (
-        <div style={{position: 'fixed', left: '50%', bottom: '32px', transform: 'translateX(-50%)', zIndex: 50}} className="flex flex-col items-center pointer-events-none">
-            <img src={require('../images/Navigation Component/Slug.png')} alt="Scroll Down Slug" className="w-16 h-16 animate-rotate-slug mb-2" />
+        <div style={{position: 'fixed', left: '50%', bottom: '32px', transform: 'translateX(-50%)', zIndex: 50}} className="flex flex-col items-center pointer-events-none scroll-indicator-outline">
+            <img src={require('../images/Navigation Component/Slug.png')} alt="Scroll Down Slug" className="w-16 h-16 animate-rotate-slug mb-2" style={{display: 'block'}} />
             <span className="text-white font-barlow-condensed text-lg">Scroll Down!!</span>
         </div>
     ) : null;
