@@ -25,16 +25,16 @@ const Home = () => {
     return (
         <div className="bg-[#003c6b] min-h-screen text-white font-sans">
             {/* Hero Banner */}
-            <section className="relative flex flex-col items-center justify-center h-[540px] md:h-[630px] lg:h-[720px] w-full overflow-hidden px-10 pt-[120px]" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)'}}>
+            <section className="relative flex flex-col items-start justify-start h-[540px] md:h-[630px] lg:h-[720px] w-full overflow-hidden px-0 pt-[120px]" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)'}}>
                 <div className="absolute inset-0 opacity-10 bg-no-repeat bg-center" style={{backgroundImage: `url(${require('../images/Home Page/Banner.png')})`}}></div>
-                <div className="relative z-10 flex flex-col items-start justify-center w-full max-w-2xl" style={{marginLeft: 0, paddingLeft: 0}}>
-                    <h1 className="text-[3rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-left" style={{marginLeft: 0}}>
+                <div className="relative z-10 flex flex-col items-start justify-center w-full" style={{paddingLeft: '10vw'}}>
+                    <h1 className="whitespace-nowrap text-[3rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-left" style={{margin: 0}}>
                         Slug Gaming
                     </h1>
-                    <p className="mt-1 text-xl md:text-2xl font-inter text-[#fac500] text-left" style={{marginLeft: '8%'}}>
+                    <p className="mt-2 text-xl md:text-2xl font-inter text-[#fac500] text-left" style={{marginTop: '0.5rem'}}>
                         UC Santa Cruz's official gaming community.
                     </p>
-                    <div className="mt-8 flex gap-4 justify-start" style={{marginLeft: '8%'}}>
+                    <div className="mt-6 flex gap-4 justify-start">
                         <a href="https://discord.gg/slug-gaming" target="_blank" rel="noopener noreferrer" className="px-8 py-4 min-w-[180px] rounded-full font-barlow-condensed text-xl font-bold btn-discord shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc]">
                             Join Our Discord
                         </a>
