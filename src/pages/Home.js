@@ -26,13 +26,13 @@ const Home = () => {
         <div className="bg-[#003c6b] min-h-screen text-white font-sans">
             {/* Hero Banner */}
             {/* Hero: full viewport height; content offset down 8vh so it sits lower but fully visible */}
-            <section className="relative flex flex-col items-start justify-start h-screen w-full overflow-hidden px-0" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)', zIndex: 1}}>
+            <section className="relative flex flex-row items-start justify-between h-screen w-full overflow-hidden px-0" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)', zIndex: 1}}>
                 <div className="absolute inset-0 opacity-10 bg-no-repeat bg-center" style={{backgroundImage: `url(${require('../images/Home Page/Banner.png')})`}}></div>
-                <div className="relative z-10 flex flex-col items-start justify-center w-full" style={{paddingLeft: '10vw', paddingTop: '30vh', zIndex: 1}}>
-                    <h1 className="whitespace-nowrap text-[3rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-left" style={{margin: 0}}>
+                <div className="relative z-10 flex flex-col items-start justify-center w-1/2" style={{paddingLeft: '10vw', paddingTop: '30vh', zIndex: 1}}>
+                    <h1 className="whitespace-nowrap text-[3rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-left" style={{margin: 0, alignSelf: 'flex-start'}}>
                         Slug Gaming
                     </h1>
-                    <p className="mt-2 text-xl md:text-2xl font-inter text-[#fac500] text-left" style={{marginTop: '0.5rem'}}>
+                    <p className="text-xl md:text-2xl font-inter text-[#fac500] text-left" style={{marginTop: '-0.5%', alignSelf: 'flex-start'}}>
                         UC Santa Cruz's official gaming community.
                     </p>
                     <div className="mt-6 flex gap-4 justify-start">
@@ -43,6 +43,12 @@ const Home = () => {
                             See Our Teams
                         </Link>
                     </div>
+                </div>
+                <div className="relative z-10 flex flex-col items-center justify-center w-1/2 h-full" style={{paddingRight: '6vw', paddingTop: '5.5vh'}}>
+                    <img src={process.env.PUBLIC_URL + '/ow_a_frontpage.jpg'} alt="Overwatch A Team" className="w-[540px] max-w-full rounded-xl shadow-xl border-4 border-[#fac500]" />
+                    <span className="mt-2 text-sm font-inter text-[#fac500] text-center bg-[#012a4a] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500]" style={{maxWidth: '540px', width: 'auto'}}>
+                        Overwatch A Team at UCI competing in the UC Esports Initiative
+                    </span>
                 </div>
                 {/* Slug bounce scroll-down indicator attached to viewport */}
                 <ScrollDownSlug />
