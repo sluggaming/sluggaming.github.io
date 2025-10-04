@@ -46,7 +46,7 @@ const Home = () => {
                 </div>
                 <div className="relative z-10 flex flex-col items-center justify-center w-1/2 h-full" style={{paddingRight: '6vw', paddingTop: '5.5vh'}}>
                     <img src={process.env.PUBLIC_URL + '/ow_a_frontpage.jpg'} alt="Overwatch A Team" className="w-[540px] max-w-full rounded-xl shadow-xl border-4 border-[#fac500]" />
-                    <span className="mt-2 text-sm font-inter text-[#fac500] text-center bg-[#012a4a] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500]" style={{maxWidth: '540px', width: 'auto'}}>
+                    <span className="mt-2 text-sm font-inter text-[#fac500] text-center bg-[#006aad] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500]" style={{maxWidth: '540px', width: 'auto'}}>
                         Overwatch A Team at UCI competing in the UC Esports Initiative
                     </span>
                 </div>
