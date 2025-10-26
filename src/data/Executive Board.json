@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "name": "Serene W.",
+    "name": "Hamilton S.",
         "role": "President",
-        "location": "San Bruno, CA",
-        "image": "suhrene.png",
-        "username": "suhrene",
-        "pronouns": "(She/Her)",
-        "content": "Hello! My name is Serene (she/her), a second year studying Art & Design: Games and Playable Media, who will be serving as the President of Slug Gaming. My go-to games at the moment are Valorant and The Sims!, But when I’m not gaming or studying, you can find me watching videos, catching up on the DCAU, collecting trinkets, or drawing. Feel free to reach out on Discord @suhrene ",
-        "linkedin": " https://www.linkedin.com/in/serene-wong-009785318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "instagram": "https://www.instagram.com/_suhrene/"
+        "location": "Santa Cruz, CA",
+        "image": "ham.png",
+        "username": "ham",
+        "pronouns": "(he/him)",
+        "content": "Hi! I'm Hamilton \"ham\" Shea (he/him). I'm the President of Slug Gaming. I enjoy touching grass and doom-scrolling between rounds of Valorant. Feel free to contact me on Discord: ham.edu.",
+        "linkedin": "",
+        "instagram": ""
     },
     {
         "id": 2,
-        "name": "Ren B.",
+        "name": "Charlotte B.",
         "role": "Vice President",
-        "location": "Rocklin, CA",
-        "image": "heavrenly.png",
-        "username": "heavrenly",
-        "pronouns": "(She/They)",
-        "content": "Hi! I’m Ren (she/they) and I’m a 2nd year studying Art & Design: Games and Playable Media. When I’m not at work or studying, you can find me at indie concerts, making reels for my Instagram, cooking up a storm in the kitchen, or taking a nice stroll on the beach. Currently, I’m playing Valorant, where you can find me playing Sage or smokes. My discord is @heavrenly — feel free to reach out!",
-        "instagram": "https://www.instagram.com/rennyykins/"
+        "location": "Sacramento, CA",
+        "image": "sylvette.jpg",
+        "username": "Sylvette",
+        "pronouns": "(She/Her)",
+        "content": "Hi! I'm Charlotte B. (she/her). I'm the Vice President of Slug Gaming. I'm a second-year Computer Science: Computer Game Design major and a lifelong Nintendo fan — excited to contribute to the club and support our teams.",
+        "instagram": ""
     }
 ]
