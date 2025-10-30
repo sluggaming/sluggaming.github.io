@@ -1,3 +1,95 @@
+.btn-discord {
+    background: #006aad;
+    color: #fac500;
+    border: 2px solid #fac500;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: none;
+    transition: box-shadow 0.3s, transform 0.2s, border-color 0.3s;
+}
+.btn-discord:hover {
+    box-shadow: 0 0 16px 0 #fac50099;
+    transform: scale(1.06);
+    border-color: #fac500;
+}
+.btn-teams {
+    background: #fac500;
+    color: #006aad;
+    border: 2px solid #006aad;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: none;
+    transition: box-shadow 0.3s, transform 0.2s, border-color 0.3s;
+}
+.btn-teams:hover {
+    box-shadow: 0 0 16px 0 #12a5dc99;
+    transform: scale(1.06);
+    border-color: #006aad;
+}
+.gradient-btn-blueyellow {
+    background: linear-gradient(90deg, #003c6b 0%, #fac500 100%);
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s, background 0.4s;
+}
+.gradient-btn-blueyellow:hover {
+    background: linear-gradient(90deg, #fac500 0%, #003c6b 100%);
+    background-position: left;
+    color: #fff;
+}
+.gradient-btn-yellowwhite {
+    background: linear-gradient(90deg, #fac500 0%, #fff 100%);
+    color: #003c6b;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s, background 0.4s;
+}
+.gradient-btn-yellowwhite:hover {
+    background: linear-gradient(90deg, #fff 0%, #fac500 100%);
+    background-position: left;
+    color: #003c6b;
+}
+.gradient-btn-discord {
+    background: linear-gradient(90deg, #003c6b 0%, #fac500 100%);
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s;
+}
+.gradient-btn-discord:hover {
+    background-position: left;
+    color: #003c6b;
+}
+.gradient-btn-teams {
+    background: linear-gradient(90deg, #006aad 0%, #12a5dc 100%);
+    color: #fff;
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s;
+}
+.gradient-btn-teams:hover {
+    background-position: left;
+    color: #006aad;
+}
+.slug-glow-minimal {
+    text-shadow:
+        0 0 0.2px #fac500,
+        0 0 0.4px #fac500,
+        0 0 0.8px #fac500;
+    filter: drop-shadow(0 0 0.2px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
+.slug-glow-reduced {
+    text-shadow:
+        0 0 0.4px #fac500,
+        0 0 0.8px #fac500,
+        0 0 1.6px #fac500;
+    filter: drop-shadow(0 0 0.4px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +116,56 @@ body::-webkit-scrollbar-track {
 
 .darker-drop-shadow {
     filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.7));
+}
+
+.slug-glow {
+    text-shadow:
+        0 0 8px #fac500,
+        0 0 16px #fac500,
+        0 0 32px #fac500;
+    filter: drop-shadow(0 0 8px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
+
+.slug-glow-soft {
+    text-shadow:
+        0 0 0.8px #fac500,
+        0 0 1.6px #fac500,
+        0 0 3.2px #fac500;
+    filter: drop-shadow(0 0 0.8px #fac500);
+    transition: text-shadow 0.2s, filter 0.2s;
+}
+
+.slug-glow:hover {
+    text-shadow:
+        0 0 16px #fac500,
+        0 0 32px #fac500,
+        0 0 48px #fac500;
+    filter: drop-shadow(0 0 16px #fac500);
+}
+
+/* Outline for scroll indicator so it remains visible over any background */
+.scroll-indicator-outline img {
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.9)) drop-shadow(0 0 6px rgba(0,0,0,0.7));
+}
+.scroll-indicator-outline span {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.animate-bounce-slow {
+    animation: slugBounce 2s infinite cubic-bezier(.5,0,.5,1);
+}
+@keyframes slugBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-24px) scaleX(1.1) scaleY(0.9); }
+    70% { transform: translateY(-12px) scaleX(1.05) scaleY(0.95); }
+}
+
+.animate-rotate-slug {
+    animation: rotateSlug 2s infinite ease-in-out;
+}
+@keyframes rotateSlug {
+    0% { transform: rotate(-15deg); }
+    50% { transform: rotate(15deg); }
+    100% { transform: rotate(-15deg); }
 }
