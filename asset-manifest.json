@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0290c1c3.css",
-    "main.js": "/static/js/main.f48e83b0.js",
+    "main.css": "/static/css/main.798fa668.css",
+    "main.js": "/static/js/main.f542ca37.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/axo.png": "/static/media/axo.79ef56be3236d4ee51ae.png",
     "static/media/Banner.png": "/static/media/Banner.6ab37e0f324a24522c08.png",
@@ -85,12 +85,12 @@
     "static/media/HYEL_Logo.png": "/static/media/HYEL_Logo.afdaaaf0d9b93fadd5d4.png",
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
-    "main.0290c1c3.css.map": "/static/css/main.0290c1c3.css.map",
-    "main.f48e83b0.js.map": "/static/js/main.f48e83b0.js.map",
+    "main.798fa668.css.map": "/static/css/main.798fa668.css.map",
+    "main.f542ca37.js.map": "/static/js/main.f542ca37.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0290c1c3.css",
-    "static/js/main.f48e83b0.js"
+    "static/css/main.798fa668.css",
+    "static/js/main.f542ca37.js"
   ]
 }
