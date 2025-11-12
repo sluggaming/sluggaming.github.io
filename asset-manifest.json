@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5816a8d6.css",
-    "main.js": "/static/js/main.16452d11.js",
+    "main.css": "/static/css/main.72767a47.css",
+    "main.js": "/static/js/main.625645f9.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/axo.png": "/static/media/axo.79ef56be3236d4ee51ae.png",
-    "static/media/Banner.png": "/static/media/Banner.7ab8b6e759aa92cddb8d.png",
+    "static/media/Banner.png": "/static/media/Banner.6ab37e0f324a24522c08.png",
     "static/media/jaguar.jpg": "/static/media/jaguar.a1f74fb932d06d4c57ea.jpg",
     "static/media/DIsplay.png": "/static/media/DIsplay.e1b0357fe7223e76ff55.png",
     "static/media/juggernaut.jpg": "/static/media/juggernaut.644d753bc5763d958d23.jpg",
+    "static/media/cs2.jpeg": "/static/media/cs2.bc44264216149f785560.jpeg",
+    "static/media/rivals.jpg": "/static/media/rivals.4921fae48e8330a6a552.jpg",
     "static/media/Base Banner.png": "/static/media/Base Banner.3a16ec80b89f7e617a8d.png",
     "static/media/Intramural_Calendar_April_2024.png": "/static/media/Intramural_Calendar_April_2024.83b58201f8206cb6508f.png",
     "static/media/Intramural_Calendar_May_2024.png": "/static/media/Intramural_Calendar_May_2024.83704a96c50a2d3885f2.png",
@@ -21,6 +23,7 @@
     "static/media/Quote 3.png": "/static/media/Quote 3.ec8c839e3f84953bf2aa.png",
     "static/media/Rocket League Banner.png": "/static/media/Rocket League Banner.1191630184730eed130e.png",
     "static/media/Valorant Banner.png": "/static/media/Valorant Banner.a1542cebbd87cf70d531.png",
+    "static/media/splatoon.jpg": "/static/media/splatoon.b0bc1b03fbe18205a7d4.jpg",
     "static/media/Overwatch Banner.png": "/static/media/Overwatch Banner.4d3ead1a5f83425d0dc3.png",
     "static/media/Apex Banner.png": "/static/media/Apex Banner.f24c0f64fdca37027447.png",
     "static/media/Quote 1.png": "/static/media/Quote 1.810445c395032c6a9d0b.png",
@@ -42,6 +45,7 @@
     "static/media/VIICK.png": "/static/media/VIICK.e81708df682b7f2bd70e.png",
     "static/media/Kimberley W.png": "/static/media/Kimberley W.399007f7ba060320bb4d.png",
     "static/media/Frxchy.png": "/static/media/Frxchy.f3cdcbcdb5441966cd7f.png",
+    "static/media/rainbowsix.jpg": "/static/media/rainbowsix.4d391988bedf2b6343c4.jpg",
     "static/media/sylvette.jpg": "/static/media/sylvette.b43f0dfbfe6738134539.jpg",
     "static/media/PoopyWorm.png": "/static/media/PoopyWorm.bbc1ad1a770da121bb0f.png",
     "static/media/UCSC ezky.png": "/static/media/UCSC ezky.31f29170539ae81c9e14.png",
@@ -75,17 +79,18 @@
     "static/media/slug.jpg": "/static/media/slug.080748da071a86e7145a.jpg",
     "static/media/SLUGS.png": "/static/media/SLUGS.a068faab083a63cfd61a.png",
     "static/media/SlugLogo.png": "/static/media/SlugLogo.5b0cb58456f4aa7cb25e.png",
+    "static/media/ham.png": "/static/media/ham.5dfc1c34a18efec3d5aa.png",
     "static/media/Apex Logo.png": "/static/media/Apex Logo.5c1d70b4db97ed20d5bc.png",
     "static/media/LoL Logo.png": "/static/media/LoL Logo.abea5f10f034fda5b1ac.png",
     "static/media/HYEL_Logo.png": "/static/media/HYEL_Logo.afdaaaf0d9b93fadd5d4.png",
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
-    "main.5816a8d6.css.map": "/static/css/main.5816a8d6.css.map",
-    "main.16452d11.js.map": "/static/js/main.16452d11.js.map",
+    "main.72767a47.css.map": "/static/css/main.72767a47.css.map",
+    "main.625645f9.js.map": "/static/js/main.625645f9.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5816a8d6.css",
-    "static/js/main.16452d11.js"
+    "static/css/main.72767a47.css",
+    "static/js/main.625645f9.js"
   ]
 }
