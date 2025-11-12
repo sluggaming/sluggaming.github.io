@@ -26,11 +26,11 @@ const Home = () => {
         <div className="bg-[#003c6b] min-h-screen text-white font-sans">
             {/* Hero Banner */}
             {/* Hero: full viewport height; content offset down 8vh so it sits lower but fully visible */}
-            <section className="relative flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between h-screen w-full overflow-hidden px-4 md:px-0" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)', zIndex: 1}}>
+            <section className="relative flex flex-col md:flex-row items-center justify-center md:justify-between h-screen w-full overflow-hidden px-4 md:px-0" style={{background: 'linear-gradient(135deg, #003c6b 60%, #006aad 100%)', zIndex: 1}}>
                 <div className="absolute inset-0 opacity-10 bg-no-repeat bg-center" style={{backgroundImage: `url(${require('../images/Home Page/Banner.png')})`}}></div>
                 
                 {/* Text Content - Order 1 on mobile, normal on desktop */}
-                <div className="relative z-10 flex flex-col items-center md:items-start justify-center w-full md:w-1/2 order-1 md:order-1 pt-16 md:pt-0 md:pl-[10vw] h-full">
+                <div className="relative z-10 flex flex-col items-center md:items-start justify-center w-full md:w-1/2 h-auto md:h-full order-1 md:order-1 pt-16 md:pt-0 md:pl-[15vw]">
                     <h1 className="text-[2.5rem] md:text-[4.8rem] lg:text-[6rem] font-barlow-condensed font-extrabold tracking-tight text-[#fac500] slug-glow-minimal text-center md:text-left" style={{margin: 0}}>
                         Slug Gaming
                     </h1>
@@ -50,9 +50,9 @@ const Home = () => {
                 </div>
                 
                 {/* Image - Order 3 on mobile (appears last), normal on desktop */}
-                <div className="relative z-10 flex flex-col items-center justify-center w-full md:w-1/2 h-auto md:h-full order-3 md:order-2 mt-8 md:mt-0 px-4 md:px-0 md:pr-[6vw]">
-                    <img src={process.env.PUBLIC_URL + '/ow_a_frontpage.jpg'} alt="Overwatch A Team" className="w-full max-w-[400px] md:w-[648px] md:max-w-full rounded-xl shadow-xl border-4 border-[#fac500]" />
-                    <span className="mt-2 text-xs md:text-base font-inter text-[#fac500] text-center bg-[#006aad] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500] max-w-[400px] md:max-w-[648px] w-auto">
+                    <div className="relative z-10 flex flex-col items-center justify-center w-full md:w-1/2 h-auto md:h-full order-3 md:order-2 mt-8 md:mt-0 px-4 md:px-0 md:-mt-[2vh] md:pr-[11vw]">
+                        <img src={process.env.PUBLIC_URL + '/ow_a_frontpage.jpg'} alt="Overwatch A Team" className="w-full max-w-[400px] md:w-[648px] md:max-w-full rounded-xl shadow-xl border-4 border-[#fac500]" />
+                        <span className="mt-2 text-xs md:text-sm font-inter text-[#fac500] text-center bg-[#006aad] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500] max-w-[400px] md:max-w-[648px] w-auto">
                         Overwatch A Team at UCI competing in the UC Esports Initiative
                     </span>
                 </div>
