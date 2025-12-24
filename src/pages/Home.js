@@ -36,7 +36,7 @@ const Home = () => {
                         UC Santa Cruz's official gaming community.
                     </p>
                     <div className="mt-6 flex gap-4 justify-start">
-                        <a href="https://discord.gg/slug-gaming" target="_blank" rel="noopener noreferrer" className="px-8 py-4 min-w-[180px] rounded-full font-barlow-condensed text-xl font-bold btn-discord shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc]">
+                        <a href="https://discord.gg/gnXWGrxmqQ" target="_blank" rel="noopener noreferrer" className="px-8 py-4 min-w-[180px] rounded-full font-barlow-condensed text-xl font-bold btn-discord shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc]">
                             Join Our Discord
                         </a>
                         <Link to="/teams" className="px-8 py-4 min-w-[180px] rounded-full font-barlow-condensed text-xl font-bold btn-teams shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc]">
