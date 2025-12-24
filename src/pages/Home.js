@@ -40,7 +40,7 @@ const Home = () => {
                     
                     {/* Buttons - Order 2 on mobile */}
                     <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center md:justify-start w-full md:w-auto px-4 md:px-0 order-2">
-                        <a href="https://discord.gg/slug-gaming" target="_blank" rel="noopener noreferrer" className="px-6 md:px-8 py-3 md:py-4 min-w-[180px] rounded-full font-barlow-condensed text-lg md:text-xl font-bold btn-discord shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc] text-center">
+                        <a href="https://discord.gg/gnXWGrxmqQ" target="_blank" rel="noopener noreferrer" className="px-6 md:px-8 py-3 md:py-4 min-w-[180px] rounded-full font-barlow-condensed text-lg md:text-xl font-bold btn-discord shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc] text-center">
                             Join Our Discord
                         </a>
                         <Link to="/teams" className="px-6 md:px-8 py-3 md:py-4 min-w-[180px] rounded-full font-barlow-condensed text-lg md:text-xl font-bold btn-teams shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#12a5dc] text-center">
