@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.798fa668.css",
-    "main.js": "/static/js/main.f542ca37.js",
+    "main.js": "/static/js/main.c0519c90.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/axo.png": "/static/media/axo.79ef56be3236d4ee51ae.png",
     "static/media/Banner.png": "/static/media/Banner.6ab37e0f324a24522c08.png",
@@ -86,11 +86,11 @@
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
     "main.798fa668.css.map": "/static/css/main.798fa668.css.map",
-    "main.f542ca37.js.map": "/static/js/main.f542ca37.js.map",
+    "main.c0519c90.js.map": "/static/js/main.c0519c90.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.798fa668.css",
-    "static/js/main.f542ca37.js"
+    "static/js/main.c0519c90.js"
   ]
 }
