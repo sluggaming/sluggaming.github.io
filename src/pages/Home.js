@@ -10,9 +10,14 @@ const stats = [
     { label: 'Collegiate Teams', value: '12+' },
 ];
 
-const sponsors = [
-    { name: 'Sponsor1', logo: require('../images/Footer Component/SlugLogo.png') },
-    // Add more sponsor logos here
+const featuredPartners = [
+    { name: 'NVIDIA', logo: require('../images/Home Page/partnerlogos/nvidialogo.png') },
+    { name: 'GEN.G', logo: require('../images/Home Page/partnerlogos/genglogo.png') },
+    { name: 'NRG', logo: require('../images/Home Page/partnerlogos/nrglogo.jpg') },
+    { name: 'TEAM LIQUID', logo: require('../images/Home Page/partnerlogos/teamliquidlogo.png') },
+    { name: 'RED BULL', logo: require('../images/Home Page/partnerlogos/Red-Bull-Logo.png') },
+    { name: 'EXTRA LIFE CHARITY', logo: require('../images/Home Page/partnerlogos/Extra-Life-logo.png') },
+    { name: 'RAZER', logo: require('../images/Home Page/partnerlogos/razerlogo.jpg') },
 ];
 
 const navCards = [
@@ -79,6 +84,20 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Featured Partners */}
+            <section className="py-10 px-4 md:px-16 bg-[#002b4a]">
+                <div className="max-w-5xl mx-auto text-center">
+                    <h2 className="text-2xl md:text-3xl font-barlow-condensed font-bold text-[#fac500] mb-6">Featured Partners</h2>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 md:gap-6 items-stretch">
+                        {featuredPartners.map((partner) => (
+                            <div key={partner.name} className="bg-[#012a4a] rounded-lg p-4 transition-all duration-200 shadow-lg border border-[#fac500] flex items-center justify-center min-h-[96px]">
+                                <img src={partner.logo} alt={partner.name} className="max-h-12 w-auto object-contain" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* Highlights / Featured Section */}
             <section className="py-16 px-4 md:px-16 bg-[#002b4a]">
                 <div className="max-w-5xl mx-auto">
@@ -108,19 +127,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Sponsor Callout */}
-            <section className="py-10 px-4 md:px-16 bg-[#002b4a]">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-2xl md:text-3xl font-barlow-condensed font-bold text-[#fac500] mb-6">Our Sponsors</h2>
-                    <div className="flex flex-wrap justify-center gap-8">
-                        {sponsors.map((sponsor) => (
-                            <div key={sponsor.name} className="bg-[#012a4a] rounded-lg p-4 grayscale hover:grayscale-0 transition-all duration-200 shadow-lg border border-[#fac500] flex items-center">
-                                <img src={sponsor.logo} alt={sponsor.name} className="h-12 w-auto" />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
         </div>
     );
 };
