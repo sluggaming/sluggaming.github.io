@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.798fa668.css",
-    "main.js": "/static/js/main.c0519c90.js",
+    "main.css": "/static/css/main.eace12f1.css",
+    "main.js": "/static/js/main.167403d0.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/axo.png": "/static/media/axo.79ef56be3236d4ee51ae.png",
     "static/media/Banner.png": "/static/media/Banner.6ab37e0f324a24522c08.png",
@@ -50,6 +50,7 @@
     "static/media/PoopyWorm.png": "/static/media/PoopyWorm.bbc1ad1a770da121bb0f.png",
     "static/media/UCSC ezky.png": "/static/media/UCSC ezky.31f29170539ae81c9e14.png",
     "static/media/CouncilJeans44.png": "/static/media/CouncilJeans44.8bdc98c80bad20fd6994.png",
+    "static/media/teamliquidlogo.png": "/static/media/teamliquidlogo.4bb21723c443aee89ba8.png",
     "static/media/SORA.png": "/static/media/SORA.488b40e765d0f3d59b13.png",
     "static/media/Kenxis.png": "/static/media/Kenxis.b38b51def71a25c1d87d.png",
     "static/media/nvm.png": "/static/media/nvm.b2ebc2b758838917d35f.png",
@@ -75,22 +76,28 @@
     "static/media/reedinator.jpg": "/static/media/reedinator.90c68b2c6029c39161fc.jpg",
     "static/media/Avery.png": "/static/media/Avery.8599595411dd00dd06a3.png",
     "static/media/iWin.png": "/static/media/iWin.0f8c405f868151791378.png",
+    "static/media/razerlogo.jpg": "/static/media/razerlogo.a804c85239ad2d7829a9.jpg",
     "static/media/coolmove.jpg": "/static/media/coolmove.0c3ec17c9a9e970c2031.jpg",
     "static/media/slug.jpg": "/static/media/slug.080748da071a86e7145a.jpg",
     "static/media/SLUGS.png": "/static/media/SLUGS.a068faab083a63cfd61a.png",
     "static/media/SlugLogo.png": "/static/media/SlugLogo.5b0cb58456f4aa7cb25e.png",
+    "static/media/genglogo.png": "/static/media/genglogo.94bc3a650ab55f62dddd.png",
+    "static/media/Red-Bull-Logo.png": "/static/media/Red-Bull-Logo.5456684a4e17e1c4687a.png",
     "static/media/ham.png": "/static/media/ham.5dfc1c34a18efec3d5aa.png",
+    "static/media/nrglogo.jpg": "/static/media/nrglogo.217b5f706be61c1d5092.jpg",
+    "static/media/nvidialogo.png": "/static/media/nvidialogo.81076bfa78394b1cc086.png",
     "static/media/Apex Logo.png": "/static/media/Apex Logo.5c1d70b4db97ed20d5bc.png",
     "static/media/LoL Logo.png": "/static/media/LoL Logo.abea5f10f034fda5b1ac.png",
     "static/media/HYEL_Logo.png": "/static/media/HYEL_Logo.afdaaaf0d9b93fadd5d4.png",
+    "static/media/Extra-Life-logo.png": "/static/media/Extra-Life-logo.6fc0248f5fb24ea8cbba.png",
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
-    "main.798fa668.css.map": "/static/css/main.798fa668.css.map",
-    "main.c0519c90.js.map": "/static/js/main.c0519c90.js.map",
+    "main.eace12f1.css.map": "/static/css/main.eace12f1.css.map",
+    "main.167403d0.js.map": "/static/js/main.167403d0.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.798fa668.css",
-    "static/js/main.c0519c90.js"
+    "static/css/main.eace12f1.css",
+    "static/js/main.167403d0.js"
   ]
 }
