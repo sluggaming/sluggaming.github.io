@@ -1,11 +1,19 @@
 import React from 'react'
+import ImageWithSkeleton from '../ImageWithSkeleton';
 
 const TeamCard = ({ ign, name, role, major, hometown, image }) => {
     return (
         <div className="flex justify-center flex-col">
-            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow  hover:shadow-gray/30 rounded-[25px]">
+            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-gray/30 rounded-[25px]">
                 {image && (
-                    <img src={require(`../../images/Team Page/Team Members/${image}`)} alt={name} loading="lazy" className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" width="745" height='676' />
+                    <ImageWithSkeleton
+                        src={require(`../../images/Team Page/Team Members/${image}`)}
+                        alt={name}
+                        containerClassName="w-full"
+                        className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                        width="745"
+                        height='676'
+                    />
                 )}
                 {/* Shadows */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>

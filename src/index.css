@@ -169,3 +169,22 @@ body::-webkit-scrollbar-track {
     50% { transform: rotate(15deg); }
     100% { transform: rotate(-15deg); }
 }
+
+/* Skeleton Loading Shimmer */
+@keyframes skeleton-pulse {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+.skeleton-shimmer {
+    background: linear-gradient(
+        90deg,
+        #001a33 0%,
+        #003366 35%,
+        #004b80 50%,
+        #003366 65%,
+        #001a33 100%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-pulse 1.8s ease-in-out infinite;
+}

@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
-    <div className="font-barlow-condensed min-h-screen bg-[#001a33] text-white pb-24 pt-[12vh]">
+    <div className="font-barlow-condensed min-h-screen bg-[#001a33] text-white pb-24 pt-[6vh]">
       <section id="Contact Us" className="max-w-3xl mx-auto px-4 text-center">
-  <div className="text-[#fac500] text-5xl md:text-7xl font-extrabold uppercase tracking-wide mb-4 drop-shadow-glow-cyan mt-[10vh]">Contact Us</div>
+        <div className="text-[#fac500] text-5xl md:text-7xl font-extrabold uppercase tracking-wide mb-4 drop-shadow-glow-cyan mt-[10vh]">Contact Us</div>
         <div className="text-cyan-200 text-lg md:text-2xl mb-8 font-inter">Have a question or something to share? We're here to listen!<br />Drop us a message or connect with us below.</div>
       </section>
 

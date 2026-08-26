@@ -1,39 +1,30 @@
 [
     {
-        "id": "zbra",
-        "ign": "ZBRA",
-        "name": "Zachary Kaner",
-        "role": "Tank",
-        "major": "Robotics Engineering",
-        "hometown": "Los Angeles, CA",
-        "image": "zbra.png"
+        "id": "Psyche",
+        "ign": "Psyche",
+        "name": "Mila Kuang",
+        "role": "Support",
+        "major": "Computer Science",
+        "hometown": "San Francisco, CA",
+        "image": "Jagolian.png"
     },
     {
         "id": "nvm",
         "ign": "nvm",
         "name": "Evan Johnson",
         "role": "DPS",
-        "major": "Computer Science",
-        "hometown": "Layton, Utah",
-        "image": "nvm.png"
+        "major": "Business Management Economics",
+        "hometown": "Layton, UT",
+        "image": "Jagolian.png"
     },
     {
-        "id": "Orchestra",
-        "ign": "Orchestra",
-        "name": "Alex Liu",
+        "id": "FoxesDeluxe",
+        "ign": "FoxesDeluxe",
+        "name": "Christopher Nesheim",
         "role": "Support",
-        "major": "Computer Science",
-        "hometown": "Los Angeles, CA",
-        "image": "Orchestra.png"
-    },
-    {
-        "id": "Okoton-K87",
-        "ign": "Okoton-K87",
-        "name": "Roman Luo",
-        "role": "DPS",
-        "major": "Computer Science: Computer Game Design",
-        "hometown": "Guangzhou, China",
-        "image": "Okoton-K87.png"
+        "major": "Ecology and Evolutionary Biology",
+        "hometown": "Corpus Christi, TX",
+        "image": "Jagolian.png"
     },
     {
         "id": "Jaguar",
@@ -42,24 +33,42 @@
         "role": "Tank",
         "major": "Computer Science: Computer Game Design",
         "hometown": "San Jose, CA",
-        "image": "Jaguar.png"
+        "image": "Jagolian.png"
     },
     {
-        "id": "J2hc",
-        "ign": "J2hc",
-        "name": "Jackson Cooke",
+        "id": "LJshark",
+        "ign": "LJshark",
+        "name": "Legend Rotsart",
+        "role": "Support",
+        "major": "Computer Science",
+        "hometown": "La Mesa, CA",
+        "image": "Jagolian.png"
+    },
+    {
+        "id": "Outlaw",
+        "ign": "Outlaw",
+        "name": "Daniel Romanchenko",
+        "role": "Tank",
+        "major": "Computer Engineering",
+        "hometown": "",
+        "image": "Jagolian.png"
+    },
+    {
+        "id": "SuperGnome22",
+        "ign": "SuperGnome22",
+        "name": "Kai Luzniak",
         "role": "DPS",
         "major": "Computer Science",
-        "hometown": "Alameda, CA",
-        "image": "J2hc.png"
+        "hometown": "Hawthorne, CA",
+        "image": "Jagolian.png"
     },
     {
-        "id": "Crephyn",
-        "ign": "Crephyn",
-        "name": "Yahli Kijel",
-        "role": "Support",
-        "major": "Computer Science: Computer Game Design",
-        "hometown": "Los Angeles, CA",
-        "image": "Crephyn.png"
+        "id": "Requiem",
+        "ign": "Requiem",
+        "name": "Lance Hansen",
+        "role": "Tank",
+        "major": "HCI Masters",
+        "hometown": "Los Gatos, CA",
+        "image": "Jagolian.png"
     }
 ]

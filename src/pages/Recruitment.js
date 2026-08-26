@@ -5,11 +5,11 @@ const Recruitment = () => {
   return (
     <div className='pt-[12vh] pb-16 font-barlow-condensed bg-[#001a33] min-h-screen text-white'>
       <section id='Recruitment' className='max-w-4xl mx-auto px-4'>
-  <div className='flex justify-center text-4xl md:text-6xl font-extrabold text-[#fac500] uppercase tracking-wide mb-2 drop-shadow-glow-cyan mt-[10vh]'>Recruitment</div>
+        <div className='flex justify-center text-4xl md:text-6xl font-extrabold text-[#fac500] uppercase tracking-wide mb-2 drop-shadow-glow-cyan mt-[4vh]'>Recruitment</div>
         <div className='flex justify-center pt-3 mb-6'>
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" className='w-48' />
         </div>
-  <div className='text-center text-lg md:text-2xl text-cyan-200 mb-8 font-inter mt-[10vh]'>Slug Esports is always looking out for new talent to join our teams for our collegiate games! If you are interested, here’s some basic information to help make this process easier.</div>
+        <div className='text-center text-lg md:text-2xl text-cyan-200 mb-8 font-inter mt-[2vh]'>Slug Esports is always looking out for new talent to join our teams for our collegiate games! If you are interested, here’s some basic information to help make this process easier.</div>
       </section>
 
       <section id='Requirements' className='max-w-4xl mx-auto bg-[#012a4a] rounded-2xl border-4 border-[#fac500] shadow-xl p-8 mb-10'>

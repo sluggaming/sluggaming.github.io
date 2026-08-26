@@ -1,9 +1,8 @@
 import React from 'react'
-// import ReactCardFlip from 'react-card-flip'
-// import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import { FaLinkedin, FaInstagram, FaXTwitter, FaTwitch, FaGithub, FaTiktok } from "react-icons/fa6";
 import { BsPersonCircle } from "react-icons/bs";
+import ImageWithSkeleton from '../ImageWithSkeleton';
 
 const StaffCard = ({ name, role, location, image, username, pronouns, content, linkedin, instagram, twitter, personal, twitch, github, tiktok }) => {
   // const [isFlipped, setIsFlipped] = useState(false);
@@ -49,7 +48,14 @@ const StaffCard = ({ name, role, location, image, username, pronouns, content, l
     // </div>
     <div className="flex justify-center flex-col">
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-gray/30 rounded-[20px] h-[520px]" style={{maxWidth: '255px'}}>
-            <img src={require(`../../images/Staff Page/${image}`)} alt={name} loading="lazy" className="h-[320px] w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-110" width="560" height="500"/>
+            <ImageWithSkeleton
+              src={require(`../../images/Staff Page/${image}`)}
+              alt={name}
+              containerClassName="h-[320px] w-full"
+              className="h-[320px] w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-110"
+              width="560"
+              height="500"
+            />
             {/* Shadows */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-6 text-center transition-all duration-500 group-hover:translate-y-0">

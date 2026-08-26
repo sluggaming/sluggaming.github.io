@@ -33,7 +33,7 @@
         "role": "Duelist",
         "major": "Electrical Engineering",
         "hometown": "Pukalani, Hawaii",
-        "image":"SORA.png"
+        "image": "SORA.png"
     },
     {
         "id": "CouncilJeans44",
@@ -43,14 +43,5 @@
         "major": "Computer Science: Computer Game Design",
         "hometown": "Woodland, CA",
         "image": "CouncilJeans44.png"
-    },
-    {
-        "id": "iWin",
-        "ign": "iWin",
-        "name": "Aryan Vora",
-        "role": "Coach",
-        "major": "Computer Science",
-        "hometown": "Fremont, CA",
-        "image": "iWin.png"
     }
 ]

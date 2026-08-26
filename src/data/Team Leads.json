@@ -1,13 +1,13 @@
 [
     {
         "id": 11,
-        "name": "Regis P.",
-        "role": "Production Lead",
-        "location": "San Clemente, CA",
-        "image": "soggytofu.jpg",
-        "username": "soggytofu",
+        "name": "Kai L.",
+        "role": "Website Lead, SOMeCA Signer",
+        "location": "Hawthorne, CA",
+        "image": "kai.jpg",
+        "username": "SuperGnome22",
         "pronouns": "(He/Him)",
-        "content": "DotA 2 > League of Legends"
+        "content": "average cs major icl YES i read manhwa YES i play osu YES i climb YES i hike YES i go to the gym YES i cook KILL ME"
     },
     {
         "id": 13,
@@ -30,7 +30,7 @@
         "content": "Kapeeshwar \"KingKap\" Sharma, more commonly known as Kapeesh, or simply Kap is the 2024-2025 Esports Lead. Kap manages all things Esports, including teams, competitions, tournament entries, and the Esports Gaming Room. In a concurrent position, Kap serves as the club's primary photographer. He photographs general meetings and events and leads the team photography seen throughout the website. To see more photography checkout Kap's photography page on Instagram: @konceptsbykap. You can reach Kap at kingkap4 anywhere.",
         "instagram": "https://www.instagram.com/kingkap4?igsh=NTc4MTIwNjQ2YQ==",
         "linkedin": "https://www.linkedin.com/in/kapeeshwar-sharma-b623312aa"
-    }, 
+    },
     {
         "id": 15,
         "name": "Renee L.",

@@ -1,25 +1,14 @@
 [
     {
         "id": 1,
-    "name": "Hamilton S.",
+        "name": "Davion Flood",
         "role": "President",
         "location": "Santa Cruz, CA",
-        "image": "ham.png",
-        "username": "ham",
-        "pronouns": "(he/him)",
-        "content": "Hi! I'm Hamilton \"ham\" Shea (he/him). I'm the President of Slug Gaming. I enjoy touching grass and doom-scrolling between rounds of Valorant. Feel free to contact me on Discord: ham.edu.",
+        "image": "paro.png",
+        "username": "Pâro",
+        "pronouns": "He/Him They/Them",
+        "content": "Hi! I'm Davion, but I'm better known as Pâro. I'm a third year Business Management Economics student and serve as the President of Slug Gaming. In my free time, I play Street Fighter, Apex Legends, and Pokemon and can be found frequently complaining about my lack of wins. I'm looking forward to another great year of competitive gaming, raffles, and trying to convince my friends to play fighting games with me.",
         "linkedin": "",
-        "instagram": ""
-    },
-    {
-        "id": 2,
-        "name": "Charlotte B.",
-        "role": "Vice President",
-        "location": "Sacramento, CA",
-        "image": "sylvette.jpg",
-        "username": "Sylvette",
-        "pronouns": "(She/Her)",
-        "content": "Hi! I'm Charlotte B. (she/her). I'm the Vice President of Slug Gaming. I'm a second-year Computer Science: Computer Game Design major and a lifelong Nintendo fan — excited to contribute to the club and support our teams.",
         "instagram": ""
     }
 ]

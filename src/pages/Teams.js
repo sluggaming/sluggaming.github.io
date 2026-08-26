@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ImageWithSkeleton from '../components/ImageWithSkeleton'
 
 const teams = [
   { name: 'Splatoon', image: require('../images/Team Page/Esports Banner/splatoon.jpg'), link: '/teams/splatoon' },
@@ -22,7 +23,7 @@ const Teams = () => {
     return img;
   }
   return (
-  <div className='pt-[21vh] pb-16 font-barlow-condensed bg-[#001a33] min-h-screen text-white'>
+    <div className='pt-[16vh] pb-16 font-barlow-condensed bg-[#001a33] min-h-screen text-white'>
       <section className='max-w-7xl mx-auto px-4'>
         <div className='pb-6'>
           <div className='flex justify-center text-4xl md:text-6xl font-extrabold text-[#fac500] uppercase tracking-wide mb-2 drop-shadow-glow-cyan'>Our Esport Teams</div>
@@ -33,13 +34,18 @@ const Teams = () => {
 
         {/* Desktop: 8 pods in the first row; upcoming teams (Marvel Rivals) centered on a second row */}
         <div className='hidden min-[1100px]:block'>
-          <div className='grid gap-6 p-4 justify-center items-stretch' style={{gridTemplateColumns: 'repeat(8, 15.375%)'}}>
+          <div className='grid gap-6 p-4 justify-center items-stretch' style={{ gridTemplateColumns: 'repeat(8, 15.375%)' }}>
             {teams.filter(t => !t.upcoming).map((team) => (
               <Link
                 to={team.link}
                 key={team.name}
                 className={`relative h-[420px] mx-1 rounded-2xl border-4 border-[#fac500] shadow-xl overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-glow-cyan cursor-pointer bg-[#012a4a]`}>
-                <img src={getImage(team.image)} alt={team.name + " logo"} className='absolute inset-0 w-full h-full object-cover' />
+                <ImageWithSkeleton
+                  src={getImage(team.image)}
+                  alt={team.name + " logo"}
+                  containerClassName="w-full h-full absolute inset-0"
+                  className="w-full h-full object-cover"
+                />
               </Link>
             ))}
           </div>
@@ -47,7 +53,12 @@ const Teams = () => {
           <div className='flex justify-center mt-6'>
             {teams.filter(t => t.upcoming).map((team) => (
               <div key={team.name} className={`relative w-1/4 max-w-[320px] h-[420px] mx-2 rounded-2xl border-4 border-[#fac500] shadow-xl overflow-hidden opacity-40 filter grayscale`}>
-                <img src={getImage(team.image)} alt={team.name + " logo"} className='absolute inset-0 w-full h-full object-cover' />
+                <ImageWithSkeleton
+                  src={getImage(team.image)}
+                  alt={team.name + " logo"}
+                  containerClassName="w-full h-full absolute inset-0"
+                  className="w-full h-full object-cover"
+                />
                 <span className='absolute top-4 right-4 bg-[#6b7280] text-white text-[0.9rem] font-bold px-3 py-1 rounded-lg shadow-md z-10'>Coming Winter 2025</span>
               </div>
             ))}

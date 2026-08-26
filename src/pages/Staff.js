@@ -7,7 +7,7 @@ import teamLeadsData from '../data/Team Leads.json'
 
 const Staff = () => {
   return (
-  <div className="pt-[22vh] pb-8 font-barlow-condensed bg-[#001a33] min-h-screen flex flex-col items-center">
+    <div className="pt-[16vh] pb-8 font-barlow-condensed bg-[#001a33] min-h-screen flex flex-col items-center">
       {/* Main Title & Explanation */}
       <div className="w-full max-w-6xl px-4 md:px-10 lg:px-20 mb-10 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold text-[#fac500] mb-4 tracking-wide uppercase drop-shadow-glow-cyan">Meet the Slug Gaming Staff</h1>
