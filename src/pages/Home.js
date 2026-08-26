@@ -3,6 +3,7 @@ import homePageData from '../data/Home Page.json';
 import Event_Panel from '../components/Home Panel/Event Panel';
 import { Link } from 'react-router-dom';
 import ScrollDownSlug from '../components/ScrollDownSlug';
+import ImageWithSkeleton from '../components/ImageWithSkeleton';
 
 const stats = [
     { label: 'Members', value: '3700+' },
@@ -55,9 +56,14 @@ const Home = () => {
                 </div>
                 
                 {/* Image - Order 3 on mobile (appears last), normal on desktop */}
-                    <div className="relative z-10 flex flex-col items-center justify-center w-full md:w-1/2 h-auto md:h-full order-3 md:order-2 mt-8 md:mt-0 px-4 md:px-0 md:-mt-[2vh] md:pr-[11vw]">
-                        <img src={process.env.PUBLIC_URL + '/ow_a_frontpage.jpg'} alt="Overwatch A Team" className="w-full max-w-[400px] md:w-[648px] md:max-w-full rounded-xl shadow-xl border-4 border-[#fac500]" />
-                        <span className="mt-2 text-xs md:text-sm font-inter text-[#fac500] text-center bg-[#006aad] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500] max-w-[400px] md:max-w-[648px] w-auto">
+                <div className="relative z-10 flex flex-col items-center justify-center w-full md:w-1/2 h-auto md:h-full order-3 md:order-2 mt-8 md:mt-0 px-4 md:px-0 md:-mt-[2vh] md:pr-[11vw]">
+                    <ImageWithSkeleton
+                        src={process.env.PUBLIC_URL + '/ow_a_frontpage.jpg'}
+                        alt="Overwatch A Team"
+                        containerClassName="w-full max-w-[400px] md:w-[648px] md:max-w-full rounded-xl shadow-xl border-4 border-[#fac500] aspect-[3/2]"
+                        className="w-full h-full object-cover"
+                    />
+                    <span className="mt-2 text-xs md:text-sm font-inter text-[#fac500] text-center bg-[#006aad] rounded-b-lg px-4 py-2 shadow-md inline-block border-4 border-[#fac500] max-w-[400px] md:max-w-[648px] w-auto">
                         Overwatch A Team at UCI competing in the UC Esports Initiative
                     </span>
                 </div>

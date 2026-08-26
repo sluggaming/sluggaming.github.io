@@ -59,7 +59,7 @@ const Teams = () => {
                   containerClassName="w-full h-full absolute inset-0"
                   className="w-full h-full object-cover"
                 />
-                <span className='absolute top-4 right-4 bg-[#6b7280] text-white text-[0.9rem] font-bold px-3 py-1 rounded-lg shadow-md z-10'>Coming Winter 2025</span>
+                <span className='absolute top-4 right-4 bg-[#6b7280] text-white text-[0.9rem] font-bold px-3 py-1 rounded-lg shadow-md z-10'>Coming Soon</span>
               </div>
             ))}
           </div>
@@ -74,7 +74,7 @@ const Teams = () => {
               className={`flex flex-col items-center justify-between bg-[#012a4a] rounded-2xl border-4 border-[#fac500] shadow-xl min-w-[140px] max-w-[180px] h-[220px] mx-auto relative transition-all duration-200 ${team.upcoming ? 'opacity-40 pointer-events-none filter grayscale' : 'hover:scale-105 hover:shadow-glow-cyan'} cursor-pointer`}>
               <img src={process.env.PUBLIC_URL + team.image} alt={team.name + " logo"} className='w-20 h-20 object-contain m-auto rounded-xl border-2 border-[#12a5dc] bg-[#003c6b]' />
               {team.upcoming && (
-                <span className='absolute top-2 right-2 bg-[#6b7280] text-white text-xs font-bold px-2 py-1 rounded-lg shadow-md'>Coming Winter 2025</span>
+                <span className='absolute top-2 right-2 bg-[#6b7280] text-white text-xs font-bold px-2 py-1 rounded-lg shadow-md'>Coming Soon</span>
               )}
             </Link>
           ))}
