@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.eace12f1.css",
-    "main.js": "/static/js/main.167403d0.js",
+    "main.css": "/static/css/main.7895aa7d.css",
+    "main.js": "/static/js/main.0b2474b3.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/axo.png": "/static/media/axo.79ef56be3236d4ee51ae.png",
     "static/media/Banner.png": "/static/media/Banner.6ab37e0f324a24522c08.png",
     "static/media/jaguar.jpg": "/static/media/jaguar.a1f74fb932d06d4c57ea.jpg",
     "static/media/DIsplay.png": "/static/media/DIsplay.e1b0357fe7223e76ff55.png",
     "static/media/juggernaut.jpg": "/static/media/juggernaut.644d753bc5763d958d23.jpg",
+    "static/media/kai.jpg": "/static/media/kai.2c0db79fa377cbab97de.jpg",
     "static/media/cs2.jpeg": "/static/media/cs2.bc44264216149f785560.jpeg",
     "static/media/rivals.jpg": "/static/media/rivals.4921fae48e8330a6a552.jpg",
     "static/media/Base Banner.png": "/static/media/Base Banner.3a16ec80b89f7e617a8d.png",
@@ -28,6 +29,7 @@
     "static/media/Apex Banner.png": "/static/media/Apex Banner.f24c0f64fdca37027447.png",
     "static/media/Quote 1.png": "/static/media/Quote 1.810445c395032c6a9d0b.png",
     "static/media/luser.png": "/static/media/luser.54dbab027162a048dbab.png",
+    "static/media/paro.png": "/static/media/paro.9091ab3611d2d3c64169.png",
     "static/media/kingkap.jpg": "/static/media/kingkap.1645829cf24aaa845f5a.jpg",
     "static/media/Orchestra.png": "/static/media/Orchestra.7b32ffe4f30addc4a298.png",
     "static/media/J2hc.png": "/static/media/J2hc.00e0154247e5ad348559.png",
@@ -92,12 +94,12 @@
     "static/media/Extra-Life-logo.png": "/static/media/Extra-Life-logo.6fc0248f5fb24ea8cbba.png",
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
-    "main.eace12f1.css.map": "/static/css/main.eace12f1.css.map",
-    "main.167403d0.js.map": "/static/js/main.167403d0.js.map",
+    "main.7895aa7d.css.map": "/static/css/main.7895aa7d.css.map",
+    "main.0b2474b3.js.map": "/static/js/main.0b2474b3.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eace12f1.css",
-    "static/js/main.167403d0.js"
+    "static/css/main.7895aa7d.css",
+    "static/js/main.0b2474b3.js"
   ]
 }
