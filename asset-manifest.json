@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.7895aa7d.css",
-    "main.js": "/static/js/main.0b2474b3.js",
+    "main.js": "/static/js/main.5f8811f2.js",
     "static/js/787.68248a2b.chunk.js": "/static/js/787.68248a2b.chunk.js",
     "static/media/axo.png": "/static/media/axo.79ef56be3236d4ee51ae.png",
     "static/media/Banner.png": "/static/media/Banner.6ab37e0f324a24522c08.png",
+    "static/media/shdow.jpg": "/static/media/shdow.fb06ca3c7e9a80750922.jpg",
     "static/media/jaguar.jpg": "/static/media/jaguar.a1f74fb932d06d4c57ea.jpg",
     "static/media/DIsplay.png": "/static/media/DIsplay.e1b0357fe7223e76ff55.png",
     "static/media/juggernaut.jpg": "/static/media/juggernaut.644d753bc5763d958d23.jpg",
@@ -95,11 +96,11 @@
     "static/media/Overwatch Logo.png": "/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/index.html",
     "main.7895aa7d.css.map": "/static/css/main.7895aa7d.css.map",
-    "main.0b2474b3.js.map": "/static/js/main.0b2474b3.js.map",
+    "main.5f8811f2.js.map": "/static/js/main.5f8811f2.js.map",
     "787.68248a2b.chunk.js.map": "/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7895aa7d.css",
-    "static/js/main.0b2474b3.js"
+    "static/js/main.5f8811f2.js"
   ]
 }
